@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:random_boolean_selector",
+	"config": {
+		"feature_false": {
+			"feature": "fokastudio:global/cave_vegetation/seagrass",
+			"placement": []
+		},
+		"feature_true": {
+			"feature": "fokastudio:global/cave_vegetation/sea_pickle",
+			"placement": []
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"feature": "minecraft:mushroom_island_vegetation",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 3
+		},
+		{
+			"type": "minecraft:surface_relative_threshold_filter",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

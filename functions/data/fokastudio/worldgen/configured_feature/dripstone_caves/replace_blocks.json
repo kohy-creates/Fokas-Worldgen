@@ -1,0 +1,89 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:dirt",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:coarse_dirt"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:gravel",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:andesite"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:tuff",
+					"probability": 0.2
+				},
+				"state": {
+					"Name": "minecraft:stone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.05
+				},
+				"state": {
+					"Name": "minecraft:dripstone_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:stone",
+					"probability": 0.05
+				},
+				"state": {
+					"Name": "minecraft:dripstone_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.025
+				},
+				"state": {
+					"Name": "minecraft:granite"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:stone",
+					"probability": 0.025
+				},
+				"state": {
+					"Name": "minecraft:granite"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:dripstone_block",
+					"probability": 0.00001
+				},
+				"state": {
+					"Name": "minecraft:raw_iron_block"
+				}
+			}
+		]
+	}
+}

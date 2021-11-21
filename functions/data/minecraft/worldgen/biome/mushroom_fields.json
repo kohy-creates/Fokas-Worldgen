@@ -1,0 +1,173 @@
+{
+	"temperature": 0.9,
+	"downfall": 1,
+	"precipitation": "none",
+	"category": "mushroom",
+	"effects": {
+		"sky_color": 7842047,
+		"fog_color": 6970722,
+		"water_color": 5917008,
+		"water_fog_color": 4141367,
+		"grass_color": 8614520,
+		"foliage_color": 8614520,
+		"ambient_sound": "minecraft:ambient.underwater.loop",
+		"mood_sound": {
+			"sound": "minecraft:ambient.warped_forest.mood",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.basalt_deltas.additions",
+			"tick_chance": 0.0111
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.dripstone_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:warped_spore"
+			},
+			"probability": 0.01428
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:zombified_piglin",
+				"weight": 20,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:drowned",
+				"weight": 40,
+				"minCount": 2,
+				"maxCount": 5
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:mooshroom",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 8
+			}
+		],
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"axolotls": [],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"water_creature": [],
+		"water_ambient": [
+			{
+				"type": "minecraft:tropical_fish",
+				"weight": 25,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:mushroom_fields/delta_1",
+			"fokastudio:mushroom_fields/delta_2",
+			"fokastudio:mushroom_fields/delta_3"
+		],
+		[
+			"minecraft:lake_lava_underground",
+			"minecraft:lake_lava_surface"
+		],
+		[
+			"minecraft:amethyst_geode"
+		],
+		[
+			"minecraft:fossil_upper",
+			"minecraft:fossil_lower",
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
+		[
+			"fokastudio:mushroom_fields/caves/floor"
+		],
+		[],
+		[
+			"minecraft:ore_dirt",
+			"minecraft:ore_gravel",
+			"minecraft:ore_granite_upper",
+			"minecraft:ore_granite_lower",
+			"minecraft:ore_diorite_upper",
+			"minecraft:ore_diorite_lower",
+			"minecraft:ore_andesite_upper",
+			"minecraft:ore_andesite_lower",
+			"minecraft:ore_tuff",
+			"minecraft:ore_coal_upper",
+			"minecraft:ore_coal_lower",
+			"minecraft:ore_iron_upper",
+			"minecraft:ore_iron_middle",
+			"minecraft:ore_iron_small",
+			"minecraft:ore_gold",
+			"minecraft:ore_gold_lower",
+			"minecraft:ore_redstone",
+			"minecraft:ore_redstone_lower",
+			"minecraft:ore_diamond",
+			"minecraft:ore_diamond_large",
+			"minecraft:ore_diamond_buried",
+			"minecraft:ore_lapis",
+			"minecraft:ore_lapis_buried",
+			"minecraft:ore_copper",
+			"minecraft:underwater_magma",
+			"minecraft:disk_sand",
+			"minecraft:disk_clay",
+			"minecraft:disk_gravel"
+		],
+		[],
+		[
+			"minecraft:spring_water",
+			"minecraft:spring_lava"
+		],
+		[
+			"fokastudio:mushroom_fields/vegetation_patch",
+			"minecraft:glow_lichen",
+			"minecraft:mushroom_island_vegetation",
+			"minecraft:brown_mushroom_taiga",
+			"minecraft:red_mushroom_taiga",
+			"minecraft:patch_sugar_cane",
+			"minecraft:patch_pumpkin",
+			"minecraft:cave_vines",
+			"fokastudio:mushroom_fields/prismarine_column"
+		],
+		[
+			"minecraft:freeze_top_layer",
+			"fokastudio:global/cave_magma",
+			"fokastudio:global/cave_underwater_vegetation",
+			"fokastudio:global/cave_replace_blocks",
+			"fokastudio:mushroom_fields/replace_blocks"
+		]
+	]
+}

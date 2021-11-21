@@ -1,0 +1,116 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 3,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": {
+				"type": "minecraft:block_column",
+				"config": {
+					"direction": "up",
+					"allowed_placement": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air"
+						]
+					},
+					"prioritize_tip": false,
+					"layers": [
+						{
+							"height": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 1,
+									"max_inclusive": 6
+								}
+							},
+							"provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:prismarine"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:prismarine_bricks"
+										}
+									}
+								]
+							}
+						},
+						{
+							"height": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 3
+								}
+							},
+							"provider": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:prismarine_wall",
+											"Properties": {
+												"east": "none",
+												"north": "none",
+												"south": "none",
+												"up": "true",
+												"waterlogged": "false",
+												"west": "none"
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"height": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 1
+								}
+							},
+							"provider": {
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:sea_lantern"
+								}
+							}
+						}
+					]
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							{
+								"type": "minecraft:would_survive",
+								"state": {
+									"Name": "minecraft:grass"
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:mushroom_stem",
+			"Properties": {
+				"down": "false",
+				"east": "false",
+				"north": "false",
+				"south": "false",
+				"up": "false",
+				"west": "false"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:air"
+		},
+		"stem_state": {
+			"Name": "minecraft:mushroom_stem",
+			"Properties": {
+				"down": "false",
+				"east": "true",
+				"north": "true",
+				"south": "true",
+				"up": "false",
+				"west": "true"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:mycelium",
+			"Properties": {
+				"snowy": "false"
+			}
+		}
+	}
+}

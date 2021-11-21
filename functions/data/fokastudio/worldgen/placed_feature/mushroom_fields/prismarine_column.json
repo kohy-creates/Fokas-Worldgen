@@ -1,0 +1,18 @@
+{
+	"feature": "fokastudio:mushroom_fields/prismarine_column",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 5,
+			"noise_factor": 1,
+			"noise_offset": 1.5
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"feature": "fokastudio:mushroom_fields/vegetation_patch",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 15
+		},
+		{
+			"type": "minecraft:surface_relative_threshold_filter",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

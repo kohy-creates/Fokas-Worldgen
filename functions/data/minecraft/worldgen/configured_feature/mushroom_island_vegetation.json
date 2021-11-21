@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_red_mushroom_1"
+			},
+			{
+				"chance": 0.15,
+				"feature": "fokastudio:mushroom_fields/huge_red_mushroom_2"
+			},
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_red_mushroom_3"
+			},
+			{
+				"chance": 0.15,
+				"feature": "fokastudio:mushroom_fields/huge_mushroom_1"
+			},
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_mushroom_2"
+			},
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_brown_mushroom_1"
+			},
+			{
+				"chance": 0.15,
+				"feature": "fokastudio:mushroom_fields/huge_brown_mushroom_2"
+			},
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_brown_mushroom_3"
+			},
+			{
+				"chance": 0.15,
+				"feature": "fokastudio:mushroom_fields/huge_mushroom_3"
+			},
+			{
+				"chance": 0.25,
+				"feature": "fokastudio:mushroom_fields/huge_mushroom_4"
+			},
+			{
+				"chance": 0.35,
+				"feature": "fokastudio:mushroom_fields/mushroom_1"
+			},
+			{
+				"chance": 0.35,
+				"feature": "fokastudio:mushroom_fields/mushroom_2"
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:no_op",
+				"config": {}
+			},
+			"placement": []
+		}
+	}
+}

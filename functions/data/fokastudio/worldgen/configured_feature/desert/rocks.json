@@ -1,0 +1,98 @@
+{
+	"type": "minecraft:simple_block",
+	"config": {
+		"to_place": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "north",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"facing": "south",
+							"face": "floor",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "west",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "east",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:polished_blackstone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "north",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:polished_blackstone_button",
+						"Properties": {
+							"facing": "south",
+							"face": "floor",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:polished_blackstone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "west",
+							"powered": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:polished_blackstone_button",
+						"Properties": {
+							"face": "floor",
+							"facing": "east",
+							"powered": "false"
+						}
+					}
+				}
+			]
+		}
+	}
+}

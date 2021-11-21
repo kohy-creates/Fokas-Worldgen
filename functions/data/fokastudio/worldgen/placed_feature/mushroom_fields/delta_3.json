@@ -1,0 +1,36 @@
+{
+	"feature": "fokastudio:mushroom_fields/delta_3",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 10,
+					"max_inclusive": 18
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:mycelium"
+				]
+			}
+		}
+	]
+}

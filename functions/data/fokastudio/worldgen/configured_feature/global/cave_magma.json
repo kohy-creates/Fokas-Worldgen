@@ -1,0 +1,147 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.07
+				},
+				"state": {
+					"Name": "minecraft:magma_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:stone",
+					"probability": 0.07
+				},
+				"state": {
+					"Name": "minecraft:magma_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:granite",
+					"probability": 0.07
+				},
+				"state": {
+					"Name": "minecraft:magma_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:dripstone_block",
+					"probability": 0.07
+				},
+				"state": {
+					"Name": "minecraft:magma_block"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.03
+				},
+				"state": {
+					"Name": "minecraft:blackstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:stone",
+					"probability": 0.03
+				},
+				"state": {
+					"Name": "minecraft:blackstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:granite",
+					"probability": 0.03
+				},
+				"state": {
+					"Name": "minecraft:blackstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:dripstone_block",
+					"probability": 0.03
+				},
+				"state": {
+					"Name": "minecraft:blackstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:deepslate",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:netherrack"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:stone",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:netherrack"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:granite",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:netherrack"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:random_block_match",
+					"block": "minecraft:dripstone_block",
+					"probability": 0.1
+				},
+				"state": {
+					"Name": "minecraft:netherrack"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:deepslate_diamond_ore"
+				},
+				"state": {
+					"Name": "minecraft:ancient_debris"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:diamond_ore"
+				},
+				"state": {
+					"Name": "minecraft:ancient_debris"
+				}
+			}
+		]
+	}
+}
