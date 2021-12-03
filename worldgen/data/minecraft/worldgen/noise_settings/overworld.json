@@ -2749,9 +2749,9 @@
 									"type": "minecraft:condition",
 									"if_true": {
 										"type": "minecraft:noise_threshold",
-										"noise": "fokastudio:red_desert",
-										"min_threshold": -0.19,
-										"max_threshold": 2
+										"noise": "fokastudio:desert_grass",
+										"min_threshold": 0,
+										"max_threshold": 0
 									},
 									"then_run": {
 										"type": "minecraft:sequence",
