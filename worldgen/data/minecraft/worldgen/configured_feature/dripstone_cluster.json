@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:dripstone_cluster",
 	"config": {
-		"floor_to_ceiling_search_range": 20,
+		"floor_to_ceiling_search_range": 40,
 		"height": {
 			"type": "minecraft:uniform",
 			"value": {
