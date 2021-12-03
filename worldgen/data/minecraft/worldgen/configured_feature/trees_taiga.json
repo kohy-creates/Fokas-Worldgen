@@ -7,11 +7,11 @@
 				"feature": "minecraft:pine_checked"
 			},
 			{
-				"chance": 0.35,
+				"chance": 0.1,
 				"feature": "minecraft:mega_pine_checked"
 			},
 			{
-				"chance": 0.35,
+				"chance": 0.3,
 				"feature": "minecraft:mega_spruce_checked"
 			}
 		],
