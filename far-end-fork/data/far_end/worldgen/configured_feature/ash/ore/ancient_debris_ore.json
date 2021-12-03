@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 10,
+    "discard_chance_on_air_exposure": 0.4,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:end_stone",
+          "probability": 0.112
+        },
+        "state": {
+          "Name": "minecraft:ancient_debris"
+        }
+      }
+    ]
+  }
+}

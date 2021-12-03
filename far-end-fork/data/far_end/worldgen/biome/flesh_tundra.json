@@ -1,0 +1,104 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 16711680,
+    "water_fog_color": 16711680,
+    "grass_color": 12860219,
+    "foliage_color": 12860219,
+    "ambient_sound": "ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.warped_forest.mood",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "ambient.warped_forest.additions",
+      "tick_chance": 0.1
+    },
+    "music": {
+      "sound": "music.nether.crimson_forest",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.05
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:silverfish",
+        "weight": 30,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 30,
+        "minCount": 3,
+        "maxCount": 7
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 30,
+        "minCount": 3,
+        "maxCount": 7
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:surface_scar"
+    ]
+  },
+  "features": [
+    [
+      "far_end:tundra/surface/water",
+      "far_end:tundra/surface/water_2"
+    ],
+    [
+      "far_end:tundra/aquatic/lake"
+    ],
+    [],
+    [
+      "far_end:tundra/aquatic/delta"
+    ],
+    [],
+    [],
+    [],
+    [
+      "far_end:tundra/vegetation/surface_plants",
+      "far_end:tundra/vegetation/bone_trees",
+      "far_end:tundra/tree/crimson",
+      "far_end:tundra/tree/crimson_2"
+    ],
+    [],
+    [
+      "far_end:tundra/vegetation/chorus_plant",
+      "far_end:general/end_spike/center/2",
+      "far_end:general/end_spike/ring/1",
+      "far_end:general/end_spike/ring/2",
+      "far_end:general/end_spike/ring/3",
+      "far_end:general/end_spike/ring/4",
+      "far_end:general/end_spike/ring/5",
+      "far_end:general/end_spike/ring/6",
+      "far_end:general/end_spike/ring/7",
+      "far_end:general/end_spike/ring/8",
+      "far_end:general/end_spike/ring/9",
+      "far_end:general/end_spike/ring/10"
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "swamp",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 10672615,
+    "water_fog_color": 6798273,
+    "grass_color": 16446345,
+    "foliage_color": 16772469,
+    "ambient_sound": "ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.warped_forest.mood",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "ambient.warped_forest.additions",
+      "tick_chance": 0.1
+    },
+    "music": {
+      "sound": "music.nether.crimson_forest",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "warped_spore"
+      },
+      "probability": 0.05
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:surface_scar"
+    ]
+  },
+  "features": [
+    [
+      "far_end:wilds/surface/grassy_plain",
+      "far_end:wilds/surface/grassy_plain_outer"
+    ],
+    [],
+    [
+      "far_end:wilds/geode/seed_of_life"
+    ],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [],
+    [
+      "far_end:wilds/vegetation/patch_chorus_flower",
+      "far_end:wilds/vegetation/patch_leaves",
+      "far_end:wilds/vegetation/trees",
+      "minecraft:patch_dead_bush"
+    ],
+    [],
+    [
+      "far_end:wilds/vegetation/chorus_plant",
+      "far_end:general/end_spike/center/2",
+      "far_end:general/end_spike/ring/1",
+      "far_end:general/end_spike/ring/2",
+      "far_end:general/end_spike/ring/3",
+      "far_end:general/end_spike/ring/4",
+      "far_end:general/end_spike/ring/5",
+      "far_end:general/end_spike/ring/6",
+      "far_end:general/end_spike/ring/7",
+      "far_end:general/end_spike/ring/8",
+      "far_end:general/end_spike/ring/9",
+      "far_end:general/end_spike/ring/10"
+    ]
+  ]
+}

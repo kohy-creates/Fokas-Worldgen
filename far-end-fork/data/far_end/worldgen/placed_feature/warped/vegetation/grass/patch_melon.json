@@ -1,0 +1,19 @@
+{
+    "feature": "far_end:warped/vegetation/grass/patch_melon",
+    "placement": [
+        {
+            "type": "count",
+            "count": 5
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

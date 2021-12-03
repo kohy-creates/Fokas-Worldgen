@@ -1,0 +1,104 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.9,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "the_end",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 15068927,
+    "water_fog_color": 12895439,
+    "grass_color": 14606046,
+    "foliage_color": 12763842,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 100,
+      "block_search_extent": 10,
+      "offset": 100
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.05
+    },
+    "music": {
+      "sound": "music.nether.basalt_deltas",
+      "min_delay": 100,
+      "max_delay": 100,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "white_ash"
+      },
+      "probability": 0.05
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:guardian",
+        "weight": 40,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 40,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [
+      "far_end:ash/island/basalt_bottom"
+    ],
+    [
+      "far_end:ash/aquatic/lake"
+    ],
+    [],
+    [
+      "far_end:ash/aquatic/delta",
+      "far_end:ash/surface/grass_delta",
+      "minecraft:small_basalt_columns",
+      "minecraft:basalt_pillar"
+    ],
+    [],
+    [
+      "minecraft:basalt_blobs",
+      "far_end:ash/ore/ancient_debris"
+    ],
+    [],
+    [
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_waterlily",
+      "minecraft:seagrass_swamp",
+      "far_end:ash/vegetation/water/seagrass",
+      "far_end:ash/vegetation/water/sea_pickle",
+      "far_end:ash/vegetation/land/trees",
+      "far_end:ash/vegetation/land/wither_rose"
+    ],
+    [],
+    [
+      "far_end:general/end_spike/center/2",
+      "far_end:general/end_spike/ring/1",
+      "far_end:general/end_spike/ring/2",
+      "far_end:general/end_spike/ring/3",
+      "far_end:general/end_spike/ring/4",
+      "far_end:general/end_spike/ring/5",
+      "far_end:general/end_spike/ring/6",
+      "far_end:general/end_spike/ring/7",
+      "far_end:general/end_spike/ring/8",
+      "far_end:general/end_spike/ring/9",
+      "far_end:general/end_spike/ring/10",
+      "minecraft:chorus_plant"
+    ]
+  ]
+}

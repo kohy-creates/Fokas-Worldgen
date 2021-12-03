@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "from_overworld": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    },
+    "from_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "from_overworld",
+      "from_nether"
+    ]
+  ],
+  "rewards": {
+    "function": "far_end:events/enter_end"
+  }
+}
