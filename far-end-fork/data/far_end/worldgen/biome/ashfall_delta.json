@@ -58,6 +58,7 @@
   },
   "features": [
     [
+      "fokastudio:global/stalactite",
       "far_end:ash/island/basalt_bottom"
     ],
     [

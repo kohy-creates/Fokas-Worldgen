@@ -66,6 +66,7 @@
   },
   "features": [
     [
+      "fokastudio:global/stalactite",
       "far_end:tundra/surface/water",
       "far_end:tundra/surface/water_2"
     ],

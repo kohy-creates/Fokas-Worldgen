@@ -32,6 +32,7 @@
   },
   "features": [
     [
+      "fokastudio:global/stalactite",
       "far_end:nest/island/end_stone_bottom",
       "far_end:nest/hills/deepslate",
       "far_end:nest/surface/tuff"

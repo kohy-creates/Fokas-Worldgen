@@ -54,10 +54,11 @@
   },
   "features": [
     [
-      "far_end:wilds/surface/grassy_plain",
-      "far_end:wilds/surface/grassy_plain_outer"
+      "fokastudio:global/stalactite"
     ],
-    [],
+    [
+      "far_end:wilds/surface/grassy_plain",
+      "far_end:wilds/surface/grassy_plain_outer"],
     [
       "far_end:wilds/geode/seed_of_life"
     ],

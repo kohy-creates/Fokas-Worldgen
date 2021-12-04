@@ -67,7 +67,9 @@
     ]
   },
   "features": [
-    [],
+    [
+      "fokastudio:global/stalactite"
+    ],
     [
       "far_end:warped/aquatic/lake"
     ],
