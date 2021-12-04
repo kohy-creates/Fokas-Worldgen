@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:amethyst_block"
+    },
+    "decor_state": {
+      "Name": "minecraft:budding_amethyst"
+    },
+    "stem_state": {
+      "Name": "minecraft:purpur_pillar",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "planted": false
+  }
+}

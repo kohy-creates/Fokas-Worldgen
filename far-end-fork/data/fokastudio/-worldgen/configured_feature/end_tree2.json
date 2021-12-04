@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:magenta_terracotta"
+    },
+    "decor_state": {
+      "Name": "minecraft:purple_terracotta"
+    },
+    "stem_state": {
+      "Name": "minecraft:blue_terracotta",
+      "Properties": {}
+    },
+    "valid_base_block": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "planted": false
+  }
+}

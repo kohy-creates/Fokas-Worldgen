@@ -1,0 +1,110 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 1710618,
+    "water_color": 3881787,
+    "water_fog_color": 3026478,
+    "grass_color": 4342338,
+    "foliage_color": 2697513,
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.soul_sand_valley.additions",
+      "tick_chance": 0.005
+    },
+    "music": {
+      "sound": "music.nether.basalt_deltas",
+      "min_delay": 2500,
+      "max_delay": 10000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "large_smoke"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:end_hills",
+      "minecraft:end_hills",
+      "minecraft:end_hills",
+      "minecraft:end_hills",
+      "minecraft:end_hills",
+      "minecraft:end_hills",
+      "minecraft:end_hills"
+    ],
+    [
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns"
+    ],
+    [],
+    [
+      "minecraft:delta",
+      "minecraft:delta",
+      "minecraft:delta",
+      "minecraft:delta",
+      "minecraft:delta"
+    ],
+    [
+      "minecraft:end_redstone",
+      "minecraft:end_redstone"
+    ],
+    [
+      "minecraft:end_bricks_scattered",
+      "minecraft:end_bricks_scattered"
+    ],
+    [
+      "minecraft:end_lava_spring",
+      "minecraft:end_lava_spring",
+      "minecraft:end_lava_spring"
+    ],
+    [],
+    [],
+    [
+      "minecraft:end_replace_basalt",
+      "minecraft:end_replace_basalt2",
+      "minecraft:end_replace_basalt3"
+    ]
+  ]
+}

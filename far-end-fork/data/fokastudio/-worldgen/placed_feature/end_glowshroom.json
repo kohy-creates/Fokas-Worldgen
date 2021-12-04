@@ -1,0 +1,12 @@
+{
+    "feature": "minecraft:end_glowshroom",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 8
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

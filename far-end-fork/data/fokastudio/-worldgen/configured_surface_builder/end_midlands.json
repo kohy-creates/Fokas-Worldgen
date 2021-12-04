@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:nether_forest",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:light_blue_terracotta",
+      "Properties": {}
+    },
+    "under_material": {
+      "Name": "minecraft:blue_terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:purple_terracotta"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 10518688,
+    "water_color": 7946212,
+    "water_fog_color": 3475774,
+    "grass_color": 4528227,
+    "foliage_color": 3149905,
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "ambient.underwater.loop.additions.rare",
+      "tick_delay": 2000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.0025
+    },
+    "music": {
+      "sound": "music.end",
+      "min_delay": 4500,
+      "max_delay": 10000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "witch"
+      },
+      "probability": 0.003333
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:end_tree",
+      "minecraft:end_tree2",
+      "minecraft:end_tree3"
+    ],
+    [
+      "minecraft:end_iron"
+    ],
+    [],
+    [],
+    [
+      "minecraft:end_spike"
+    ],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_grass_plain"
+    ],
+    [],
+    [
+      "minecraft:replace_end_stone",
+      "minecraft:replace_end_stone",
+      "minecraft:replace_end_stone"
+    ]
+  ]
+}
