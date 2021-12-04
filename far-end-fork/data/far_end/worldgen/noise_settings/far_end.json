@@ -5,7 +5,7 @@
 	"noodle_caves_enabled": true,
 	"aquifers_enabled": false,
 	"ore_veins_enabled": false,
-	"legacy_random_source": true,
+	"legacy_random_source": false,
 	"default_block": {
 		"Name": "minecraft:end_stone"
 	},
@@ -21,7 +21,7 @@
 		"size_horizontal": 1,
 		"size_vertical": 4,
 		"sampling": {
-			"xz_scale": 2,
+			"xz_scale": 1,
 			"y_scale": 8,
 			"xz_factor": 360,
 			"y_factor": 150
@@ -279,8 +279,8 @@
 				"salt": 0
 			},
 			"minecraft:endcity": {
-				"spacing": 10,
-				"separation": 5,
+				"spacing": 15,
+				"separation": 10,
 				"salt": 10387313
 			},
 			"minecraft:buried_treasure": {
