@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 1,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.2,
+		"vegetation_chance": 0.7,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 4
+			}
+		},
+		"replaceable": "far_end:end_stone",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 18,
+					"data": {
+						"Name": "minecraft:end_stone"
+					}
+				},
+				{
+					"weight": 14,
+					"data": {
+						"Name": "minecraft:grass_block",
+						"Properties": {
+							"snowy": "false"
+						}
+					}
+				},
+				{
+					"weight": 3,
+					"data": {
+						"Name": "minecraft:coarse_dirt"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:purpur_block"
+					}
+				}
+			]
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 25,
+								"data": {
+									"Name": "minecraft:grass"
+								}
+							},
+							{
+								"weight": 6,
+								"data": {
+									"Name": "minecraft:tall_grass",
+									"Properties": {
+										"half": "lower"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:wither_rose"
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": []
+		}
+	}
+}
