@@ -1,0 +1,136 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"minimum_size": {
+			"type": "minecraft:three_layers_feature_size",
+			"min_clipped_height": 4,
+			"limit": 0,
+			"lower_size": 0,
+			"upper_size": 0
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:end_stone"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 11,
+					"data": {
+						"Name": "minecraft:crimson_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"weight": 11,
+					"data": {
+						"Name": "minecraft:warped_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:stripped_crimson_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:stripped_warped_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			]
+		},
+		"foliage_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 6,
+					"data": {
+						"Name": "minecraft:shroomlight"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_fire_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_bubble_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_brain_coral_block"
+					}
+				}
+			]
+		},
+		"trunk_placer": {
+			"type": "minecraft:dark_oak_trunk_placer",
+			"base_height": 6,
+			"height_rand_a": 12,
+			"height_rand_b": 4
+		},
+		"foliage_placer": {
+			"type": "minecraft:random_spread_foliage_placer",
+			"radius": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 2,
+					"max_inclusive": 4
+				}
+			},
+			"offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 1
+				}
+			},
+			"foliage_height": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 4,
+					"max_inclusive": 8
+				}
+			},
+			"leaf_placement_attempts": 250
+		},
+		"decorators": [
+			{
+				"type": "minecraft:leave_vine"
+			}
+		]
+	}
+}

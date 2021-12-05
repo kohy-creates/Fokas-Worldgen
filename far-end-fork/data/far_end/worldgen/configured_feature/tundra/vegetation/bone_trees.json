@@ -24,9 +24,16 @@
         "config": {
           "features": [
             {
-              "chance": 1,
+              "chance": 0.5,
               "feature": {
                 "feature": "far_end:tundra/tree/bone_rib",
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.142222,
+              "feature": {
+                "feature": "far_end:tundra/tree/bone_fancy",
                 "placement": []
               }
             }

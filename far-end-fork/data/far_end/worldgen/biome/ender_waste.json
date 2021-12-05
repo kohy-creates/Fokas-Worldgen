@@ -38,8 +38,14 @@
       "fokastudio:global/stalactite"
     ],
     [],
-    [],
-    [],
+    [
+      "fokastudio:wastes/shatter",
+      "fokastudio:wastes/patches"
+    ],
+    [
+      "fokastudio:wastes/dead_tree",
+      "fokastudio:wastes/tree"
+    ],
     [
       "minecraft:end_gateway_return"
     ],

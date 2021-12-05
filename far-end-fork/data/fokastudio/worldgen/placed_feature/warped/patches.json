@@ -1,9 +1,9 @@
 {
-	"feature": "fokastudio:midlands/patches",
+	"feature": "fokastudio:warped/patches",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 67
+			"count": 120
 		},
 		{
 			"type": "minecraft:in_square"
@@ -33,11 +33,6 @@
 					"minecraft:air"
 				]
 			}
-		},
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": 0,
-			"y_spread": 1
 		},
 		{
 			"type": "minecraft:biome"

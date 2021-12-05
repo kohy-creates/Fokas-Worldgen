@@ -21,7 +21,7 @@
 			"tick_chance": 0
 		},
 		"music": {
-			"sound": "minecraft:music.nether.basalt_deltas",
+			"sound": "minecraft:music.overworld.meadow",
 			"min_delay": 12000,
 			"max_delay": 24000,
 			"replace_current_music": false
@@ -51,17 +51,20 @@
 			"fokastudio:global/stalactite"
 		],
 		[
-			"fokastudio:midlands/patches"
+			"fokastudio:midlands/obsidian"
+		],
+		[
+			"fokastudio:midlands/pile_cobblestone"
 		],
 		[],
 		[],
-		[],
 		[
+			"fokastudio:midlands/patches",
 			"far_end:waste/chorus_plant"
 		],
 		[],
 		[
-			"fokastudio:global/stalactite"
+			"fokastudio:midlands/rocks"
 		],
 		[
 			"minecraft:end_gateway_return"
