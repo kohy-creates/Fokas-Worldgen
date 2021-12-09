@@ -1,0 +1,26 @@
+{
+  "logs": "/var/log/pufferpanel",
+  "web": {
+    "host": "0.0.0.0:8080"
+  },
+  "token": {
+    "public": "https://minecraft.gnu-tech.pl/auth/publickey"
+  },
+  "panel": {
+    "enable": false
+  },
+  "daemon": {
+    "auth": {
+      "url": "https://minecraft.gnu-tech.pl/oauth2/token",
+      "clientId": ".node_1",
+      "clientSecret": "f5a563e37f3b4fa6aed32b94057d7810"
+    },
+    "data": {
+      "cache": "/var/lib/pufferpanel/cache",
+      "servers": "/var/lib/pufferpanel/servers"
+    },
+    "sftp": {
+      "host": "0.0.0.0:25575"
+    }
+  }
+}

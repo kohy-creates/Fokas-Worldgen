@@ -28,6 +28,9 @@
 					"minecraft:end_stone"
 				]
 			}
+		},
+		{
+			"type": "biome"
 		}
 	]
 }

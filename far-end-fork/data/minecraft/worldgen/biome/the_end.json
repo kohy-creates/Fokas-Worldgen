@@ -5,12 +5,14 @@
 	"category": "the_end",
 	"effects": {
 		"sky_color": 0,
-		"fog_color": 10518688,
-		"water_color": 4159204,
-		"water_fog_color": 329011,
+		"fog_color": 5177451,
+		"water_color": 6443678,
+		"water_fog_color": 3286873,
+		"grass_color": 7882088,
+		"foliage_color": 7552867,
 		"mood_sound": {
-			"sound": "minecraft:ambient.cave",
-			"tick_delay": 6000,
+			"sound": "minecraft:ambient.basalt_deltas.mood",
+			"tick_delay": 100,
 			"block_search_extent": 8,
 			"offset": 2
 		}
@@ -33,32 +35,44 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
 	"features": [
 		[
-			"fokastudio:global/stalactite"
+			"fokastudio:global/stalactite",
+			"fokastudio:the_end/hills",
+			"fokastudio:the_end/obsidian"
 		],
 		[],
 		[],
 		[],
 		[],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-            "far_end:general/end_spike/center/2",
-      "far_end:general/end_spike/ring/1",
-      "far_end:general/end_spike/ring/2",
-      "far_end:general/end_spike/ring/3",
-      "far_end:general/end_spike/ring/4",
-      "far_end:general/end_spike/ring/5",
-      "far_end:general/end_spike/ring/6",
-      "far_end:general/end_spike/ring/7",
-      "far_end:general/end_spike/ring/8",
-      "far_end:general/end_spike/ring/9",
-      "far_end:general/end_spike/ring/10"
-        ]
+		[
+			"fokastudio:the_end/patches",
+			"fokastudio:the_end/trees",
+			"fokastudio:the_end/chorus_plant"
+		],
+		[],
+		[
+			"minecraft:end_gateway_return"
+		],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center/2",
+			"far_end:general/end_spike/ring/1",
+			"far_end:general/end_spike/ring/2",
+			"far_end:general/end_spike/ring/3",
+			"far_end:general/end_spike/ring/4",
+			"far_end:general/end_spike/ring/5",
+			"far_end:general/end_spike/ring/6",
+			"far_end:general/end_spike/ring/7",
+			"far_end:general/end_spike/ring/8",
+			"far_end:general/end_spike/ring/9",
+			"far_end:general/end_spike/ring/10"
+		]
 	]
 }

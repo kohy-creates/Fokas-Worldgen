@@ -33,7 +33,11 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:global/stalactite"
@@ -49,20 +53,20 @@
 		[],
 		[],
 		[
-			"minecraft:chorus_plant"
+			"fokastudio:highlands/chorus_plant"
 		],
-        [
-            "far_end:general/end_spike/center/2",
-      "far_end:general/end_spike/ring/1",
-      "far_end:general/end_spike/ring/2",
-      "far_end:general/end_spike/ring/3",
-      "far_end:general/end_spike/ring/4",
-      "far_end:general/end_spike/ring/5",
-      "far_end:general/end_spike/ring/6",
-      "far_end:general/end_spike/ring/7",
-      "far_end:general/end_spike/ring/8",
-      "far_end:general/end_spike/ring/9",
-      "far_end:general/end_spike/ring/10"
-        ]
+		[
+			"far_end:general/end_spike/center/2",
+			"far_end:general/end_spike/ring/1",
+			"far_end:general/end_spike/ring/2",
+			"far_end:general/end_spike/ring/3",
+			"far_end:general/end_spike/ring/4",
+			"far_end:general/end_spike/ring/5",
+			"far_end:general/end_spike/ring/6",
+			"far_end:general/end_spike/ring/7",
+			"far_end:general/end_spike/ring/8",
+			"far_end:general/end_spike/ring/9",
+			"far_end:general/end_spike/ring/10"
+		]
 	]
 }

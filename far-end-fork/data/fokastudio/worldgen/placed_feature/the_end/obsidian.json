@@ -1,5 +1,5 @@
 {
-	"feature": "far_end:waste/chorus_plant",
+	"feature": "fokastudio:midlands/columns",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
@@ -9,8 +9,8 @@
 			"type": "minecraft:biome"
 		},
 		{
-			"type": "rarity_filter",
-			"chance": 2
+			"type": "minecraft:rarity_filter",
+			"chance": 5
 		}
 	]
 }

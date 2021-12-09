@@ -16,7 +16,7 @@
 		"mood_sound": {
 			"sound": "ambient.warped_forest.mood",
 			"tick_delay": 400,
-			"block_search_extent": 10,
+			"block_search_extent": 4,
 			"offset": 100
 		},
 		"additions_sound": {

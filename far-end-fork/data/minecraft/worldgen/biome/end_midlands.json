@@ -45,7 +45,11 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:global/stalactite"
