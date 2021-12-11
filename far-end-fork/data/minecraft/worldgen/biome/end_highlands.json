@@ -8,11 +8,25 @@
 		"fog_color": 10518688,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
+		"grass_color": 13198446,
+		"foliage_color": 14237542,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
 			"block_search_extent": 8,
 			"offset": 2
+		},
+		"music": {
+			"sound": "music.overworld.lush_caves",
+			"min_delay": 100,
+			"max_delay": 200,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "wax_off"
+			},
+			"probability": 0.00125
 		}
 	},
 	"spawners": {
@@ -24,7 +38,26 @@
 				"maxCount": 4
 			}
 		],
-		"creature": [],
+		"creature": [
+			{
+				"type": "minecraft:pig",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:cow",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:sheep",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 3
+			}
+		],
 		"ambient": [],
 		"axolotls": [],
 		"underground_water_creature": [],
@@ -53,6 +86,8 @@
 		[],
 		[],
 		[
+			"fokastudio:highlands/patches",
+			"fokastudio:highlands/trees",
 			"fokastudio:highlands/chorus_plant"
 		],
 		[

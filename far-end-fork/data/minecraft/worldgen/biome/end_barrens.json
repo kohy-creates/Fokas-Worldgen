@@ -5,25 +5,31 @@
 	"category": "the_end",
 	"effects": {
 		"sky_color": 0,
-		"fog_color": 10518688,
-		"water_color": 6443678,
-		"water_fog_color": 3286873,
-		"grass_color": 7949456,
-		"foliage_color": 7090556,
+		"fog_color": 16676606,
+		"water_color": 5261169,
+		"water_fog_color": 3156295,
+		"grass_color": 4994644,
+		"foliage_color": 5585503,
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
-			"tick_delay": 6000,
+			"tick_delay": 400,
 			"block_search_extent": 8,
 			"offset": 2
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:ash"
+			},
+			"probability": 0.0111
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:enderman",
-				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
+				"type": "minecraft:silverfish",
+				"weight": 40,
+				"minCount": 7,
+				"maxCount": 7
 			}
 		],
 		"creature": [],
@@ -37,13 +43,17 @@
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			"far_end:surface_scar"
+			"far_end:surface_scar",
+			"cave",
+			"cave_extra_underground",
+			"canyon"
 		]
 	},
 	"features": [
 		[
 			"fokastudio:global/stalactite",
-			"fokastudio:barrens/hills"
+            "fokastudio:barrens/hills",
+			"fokastudio:barrens/stalactite"
 		],
 		[],
 		[],
@@ -53,10 +63,9 @@
 		[],
 		[],
 		[],
+		[],
 		[
-			
-		],
-		[
+			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center/2",
 			"far_end:general/end_spike/ring/1",
 			"far_end:general/end_spike/ring/2",

@@ -97,10 +97,10 @@
 			]
 		},
 		"trunk_placer": {
-			"type": "minecraft:dark_oak_trunk_placer",
-			"base_height": 6,
-			"height_rand_a": 12,
-			"height_rand_b": 4
+			"type": "minecraft:fancy_trunk_placer",
+			"base_height": 12,
+			"height_rand_a": 24,
+			"height_rand_b": 8
 		},
 		"foliage_placer": {
 			"type": "minecraft:random_spread_foliage_placer",
@@ -114,8 +114,8 @@
 			"offset": {
 				"type": "minecraft:uniform",
 				"value": {
-					"min_inclusive": 0,
-					"max_inclusive": 4
+					"min_inclusive": 1,
+					"max_inclusive": 3
 				}
 			},
 			"foliage_height": {
@@ -125,7 +125,7 @@
 					"max_inclusive": 8
 				}
 			},
-			"leaf_placement_attempts": 250
+			"leaf_placement_attempts": 256
 		},
 		"decorators": [
 			{

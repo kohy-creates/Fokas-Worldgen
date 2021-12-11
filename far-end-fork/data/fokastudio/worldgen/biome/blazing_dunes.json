@@ -1,0 +1,146 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 1710618,
+    "water_color": 3881787,
+    "water_fog_color": 3026478,
+    "grass_color": 4342338,
+    "foliage_color": 2697513,
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.crimson_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.soul_sand_valley.additions",
+      "tick_chance": 0.005
+    },
+    "music": {
+      "sound": "music.nether.basalt_deltas",
+      "min_delay": 2500,
+      "max_delay": 10000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "large_smoke"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:surface_scar"
+  ]
+  },
+  "features": [
+    [
+      "fokastudio:global/stalactite",
+      "fokastudio:blazing_dunes/hills_1",
+      "fokastudio:blazing_dunes/hills_2"
+    ],
+    [
+      "minecraft:large_basalt_columns",
+      "minecraft:delta"
+    ],
+    [
+      "fokastudio:blazing_dunes/redstone",
+      "fokastudio:blazing_dunes/lava_spring"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "fokastudio:blazing_dunes/replace_basalt_1",
+      "fokastudio:blazing_dunes/replace_basalt_2",
+      "fokastudio:blazing_dunes/replace_basalt_3",
+      "far_end:general/end_spike/center/2",
+			"far_end:general/end_spike/ring/1",
+			"far_end:general/end_spike/ring/2",
+			"far_end:general/end_spike/ring/3",
+			"far_end:general/end_spike/ring/4",
+			"far_end:general/end_spike/ring/5",
+			"far_end:general/end_spike/ring/6",
+			"far_end:general/end_spike/ring/7",
+			"far_end:general/end_spike/ring/8",
+			"far_end:general/end_spike/ring/9",
+			"far_end:general/end_spike/ring/10"
+    ]
+  ]
+}

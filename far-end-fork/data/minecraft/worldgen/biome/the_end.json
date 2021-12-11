@@ -8,17 +8,40 @@
 		"fog_color": 5177451,
 		"water_color": 6443678,
 		"water_fog_color": 3286873,
-		"grass_color": 7882088,
-		"foliage_color": 7552867,
+		"grass_color": 8476263,
+		"foliage_color": 8408409,
+		"ambient_sound": "ambient.nether_wastes.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.basalt_deltas.mood",
-			"tick_delay": 100,
+			"tick_delay": 600,
 			"block_search_extent": 8,
 			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_chance": 0.0333
+		},
+		"music": {
+			"sound": "music.nether.nether_wastes",
+			"min_delay": 100,
+			"max_delay": 200,
+			"replace_current_music": true
+		},
+		"particle": {
+			"options": {
+				"type": "portal"
+			},
+			"probability": 0.02222
 		}
 	},
 	"spawners": {
 		"monster": [
+			{
+				"type": "minecraft:phantom",
+				"weight": 15,
+				"minCount": 3,
+				"maxCount": 3
+			},
 			{
 				"type": "minecraft:enderman",
 				"weight": 10,
@@ -44,7 +67,8 @@
 		[
 			"fokastudio:global/stalactite",
 			"fokastudio:the_end/hills",
-			"fokastudio:the_end/obsidian"
+			"fokastudio:the_end/obsidian",
+			"fokastudio:wastes/shatter"
 		],
 		[],
 		[],
@@ -53,9 +77,12 @@
 		[
 			"fokastudio:the_end/patches",
 			"fokastudio:the_end/trees",
-			"fokastudio:the_end/chorus_plant"
+			"fokastudio:the_end/chorus_plant",
+			"fokastudio:wastes/tree"
 		],
-		[],
+		[
+			"fokastudio:the_end/ceiling"
+		],
 		[
 			"minecraft:end_gateway_return"
 		],

@@ -1,18 +1,9 @@
 {
-	"feature": "fokastudio:the_end/trees",
+	"feature": "fokastudio:highlands/trees",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
 			"count": 1
-		},
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": 0,
-			"y_spread": 1
-		},
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 1
 		},
 		{
 			"type": "minecraft:block_predicate_filter",
@@ -28,8 +19,12 @@
 				]
 			}
 		},
-        {
-            "type": "biome"
-        }
+		{
+			"type": "biome"
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 2
+		}
 	]
 }

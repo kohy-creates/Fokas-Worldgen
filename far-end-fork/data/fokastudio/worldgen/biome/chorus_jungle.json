@@ -1,0 +1,103 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "category": "the_end",
+  "effects": {
+    "sky_color": 6297194,
+    "fog_color": 4853627,
+    "water_color": 9462455,
+    "water_fog_color": 5192093,
+    "grass_color": 7945615,
+    "foliage_color": 6766727,
+    "ambient_sound": "ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.warped_forest.mood",
+      "tick_delay": 700,
+      "block_search_extent": 0,
+      "offset": 0
+    },
+    "additions_sound": {
+      "sound": "ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.003
+    },
+    "music": {
+      "sound": "music.nether.crimson_forest",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "crimson_spore"
+      },
+      "probability": 0.015
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 15,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "far_end:surface_scar"
+  ]
+  },
+  "features": [
+    [
+      "fokastudio:global/stalactite"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "fokastudio:shattered_end/leaves",
+      "fokastudio:chorus_jungle/trees",
+      "fokastudio:chorus_jungle/vegetation"
+    ],
+    [],
+    [
+      "minecraft:end_gateway_return",
+      "far_end:general/end_spike/center/2",
+			"far_end:general/end_spike/ring/1",
+			"far_end:general/end_spike/ring/2",
+			"far_end:general/end_spike/ring/3",
+			"far_end:general/end_spike/ring/4",
+			"far_end:general/end_spike/ring/5",
+			"far_end:general/end_spike/ring/6",
+			"far_end:general/end_spike/ring/7",
+			"far_end:general/end_spike/ring/8",
+			"far_end:general/end_spike/ring/9",
+			"far_end:general/end_spike/ring/10"
+    ]
+  ]
+}
