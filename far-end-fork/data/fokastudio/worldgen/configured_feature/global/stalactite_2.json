@@ -1,0 +1,81 @@
+{
+	"type": "minecraft:block_column",
+	"config": {
+		"direction": "down",
+		"allowed_placement": {
+			"type": "minecraft:matching_blocks",
+			"offset": [
+				0,
+				1,
+				0
+			],
+			"blocks": [
+				"minecraft:air"
+			]
+		},
+		"prioritize_tip": false,
+		"layers": [
+			{
+				"height": {
+					"type": "minecraft:weighted_list",
+					"distribution": [
+						{
+							"weight": 40,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 0,
+									"max_inclusive": 15
+								}
+							}
+						},
+						{
+							"weight": 30,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 5,
+									"max_inclusive": 20
+								}
+							}
+						},
+						{
+							"weight": 20,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 10,
+									"max_inclusive": 25
+								}
+							}
+						},
+						{
+							"weight": 10,
+							"data": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 15,
+									"max_inclusive": 30
+								}
+							}
+						}
+					]
+				},
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:end_stone_brick_wall",
+						"Properties": {
+							"east": "none",
+							"north": "none",
+							"south": "none",
+							"up": "true",
+							"waterlogged": "false",
+							"west": "none"
+						}
+					}
+				}
+			}
+		]
+	}
+}

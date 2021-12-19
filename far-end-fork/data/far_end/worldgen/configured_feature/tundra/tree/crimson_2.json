@@ -1,29 +1,33 @@
 {
-  "type": "minecraft:huge_fungus",
-  "config": {
-    "hat_state": {
-      "Name": "minecraft:oak_leaves",
-      "Properties": {
-        "distance": "7",
-        "persistent": "true"
-      }
-    },
-    "decor_state": {
-      "Name": "minecraft:jungle_leaves",
-      "Properties": {
-        "distance": "7",
-        "persistent": "true"
-      }
-    },
-    "stem_state": {
-      "Name": "minecraft:bone_block",
-      "Properties": {
-        "axis": "y"
-      }
-    },
-    "valid_base_block": {
-      "Name": "minecraft:crimson_nylium"
-    },
-    "planted": true
-  }
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:red_mushroom_block",
+			"Properties": {
+				"down": "true",
+				"east": "true",
+				"north": "true",
+				"south": "true",
+				"up": "true",
+				"west": "true"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:jungle_leaves",
+			"Properties": {
+				"distance": "7",
+				"persistent": "true"
+			}
+		},
+		"stem_state": {
+			"Name": "minecraft:bone_block",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:crimson_nylium"
+		},
+		"planted": true
+	}
 }

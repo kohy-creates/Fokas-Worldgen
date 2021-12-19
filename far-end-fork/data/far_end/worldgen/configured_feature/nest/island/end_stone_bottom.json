@@ -20,7 +20,7 @@
         "max_inclusive": 8
       }
     },
-    "replaceable": "far_end:single/end_stone",
+    "replaceable": "fokastudio:the_nest/surface_blocks",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

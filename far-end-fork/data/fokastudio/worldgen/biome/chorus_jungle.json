@@ -70,7 +70,8 @@
   },
   "features": [
     [
-      "fokastudio:global/stalactite"
+      "fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
     ],
     [],
     [],

@@ -74,23 +74,21 @@
 	},
 	"features": [
 		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
 			"fokastudio:warped/patches",
-			"fokastudio:global/stalactite"
-		],
-		[
 			"far_end:warped/aquatic/lake"
 		],
 		[],
+		[],
 		[
-			"far_end:warped/aquatic/delta"
+			"far_end:warped/aquatic/delta",
+			"fokastudio:warped/spring",
+			"fokastudio:warped/deltas",
+			"fokastudio:warped/cave_vines_patch"
 		],
-		[
-			"fokastudio:warped/spring"
-		],
-		[
-			"fokastudio:warped/cave_vines",
-			"fokastudio:warped/twisting_vines"
-		],
+		[],
+		[],
 		[],
 		[
 			"far_end:warped/vegetation/grass/patch_grass",
@@ -101,7 +99,10 @@
 			"far_end:warped/vegetation/water/under_island_extra",
 			"far_end:warped/vegetation/water/pool"
 		],
-		[],
+		[
+			"far_end:warped/tree/warped",
+			"fokastudio:warped/big_oak"
+		],
 		[
 			"far_end:general/end_spike/center/2",
 			"far_end:general/end_spike/ring/1",
@@ -113,8 +114,7 @@
 			"far_end:general/end_spike/ring/7",
 			"far_end:general/end_spike/ring/8",
 			"far_end:general/end_spike/ring/9",
-			"far_end:general/end_spike/ring/10",
-			"far_end:warped/tree/warped"
+			"far_end:general/end_spike/ring/10"
 		]
 	]
 }

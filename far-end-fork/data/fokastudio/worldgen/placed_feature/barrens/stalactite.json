@@ -1,5 +1,5 @@
 {
-	"feature": "fokastudio:global/stalactite",
+	"feature": "fokastudio:global/stalactite_1",
 	"placement": [
 		{
 			"type": "minecraft:count",
@@ -8,19 +8,19 @@
 				"distribution": [
 					{
 						"weight": 100,
-						"data": 10
+						"data": 15
 					},
 					{
 						"weight": 50,
-						"data": 20
+						"data": 25
 					},
 					{
 						"weight": 25,
-						"data": 30
+						"data": 35
 					},
 					{
 						"weight": 1,
-						"data": 40
+						"data": 45
 					}
 				]
 			}

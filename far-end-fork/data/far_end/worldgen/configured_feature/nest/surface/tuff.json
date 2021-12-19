@@ -20,7 +20,7 @@
         "max_inclusive": 5
       }
     },
-    "replaceable": "far_end:end_stone",
+    "replaceable": "fokastudio:the_nest/basalt",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 150
+            "count": 230
         },
         {
             "type": "minecraft:count",
@@ -14,7 +14,7 @@
         },
         {
             "type": "minecraft:noise_based_count",
-            "noise_to_count_ratio": 50,
+            "noise_to_count_ratio": 60,
             "noise_factor": 10,
             "noise_offset": 0
         },
@@ -47,7 +47,8 @@
                         ],
                         "blocks": [
                             "minecraft:moss_block",
-                            "minecraft:end_stone"
+                            "minecraft:end_stone",
+                            "warped_wart_block"
                         ]
                     },
                     {

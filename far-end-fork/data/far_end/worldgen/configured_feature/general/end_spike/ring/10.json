@@ -13,7 +13,7 @@
         "centerZ": -25,
         "radius": 3,
         "height": 149,
-        "guarded": false
+        "guarded": true
       }
     ]
   }

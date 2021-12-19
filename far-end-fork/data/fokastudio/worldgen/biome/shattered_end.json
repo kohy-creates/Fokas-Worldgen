@@ -65,13 +65,13 @@
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "far_end:surface_scar",
-      "fokastudio:shatter"
-  ]
+      "far_end:surface_scar"
+      ]
   },
   "features": [
     [
-      "fokastudio:global/stalactite",
+      "fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
       "end_island_decorated",
       "fokastudio:shattered_end/holes"
     ],

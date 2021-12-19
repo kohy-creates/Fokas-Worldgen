@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 16
+			"count": 4
 		},
 		{
 			"type": "minecraft:height_range",
@@ -23,16 +23,6 @@
 		},
 		{
 			"type": "minecraft:biome"
-		},
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": 0,
-			"y_spread": -10
-		},
-		{
-			"type": "minecraft:random_offset",
-			"xz_spread": 0,
-			"y_spread": 3
 		}
 	]
 }

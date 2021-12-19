@@ -1,0 +1,16 @@
+{
+	"values": [
+		"#terracotta",
+		"#far_end:end_stone",
+		"#base_stone_nether",
+		"#base_stone_overworld",
+		"dirt",
+		"tuff",
+		"basalt",
+		"moss_block",
+		"warped_wart_block",
+		"smooth_basalt",
+		"deepslate",
+		"cobbled_deepslate"
+	]
+}

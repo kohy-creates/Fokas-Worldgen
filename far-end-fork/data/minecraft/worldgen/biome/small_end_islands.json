@@ -40,19 +40,39 @@
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite"
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"minecraft:end_island_decorated"
 		],
-            ["minecraft:end_island_decorated"],
-            [],[],[],[],[],[],[],[],["far_end:general/end_spike/center/2",
-                "far_end:general/end_spike/ring/1",
-                "far_end:general/end_spike/ring/2",
-                "far_end:general/end_spike/ring/3",
-                "far_end:general/end_spike/ring/4",
-                "far_end:general/end_spike/ring/5",
-                "far_end:general/end_spike/ring/6",
-                "far_end:general/end_spike/ring/7",
-                "far_end:general/end_spike/ring/8",
-                "far_end:general/end_spike/ring/9",
-                "far_end:general/end_spike/ring/10"]
+		[
+			"fokastudio:small_end_islands/ceiling",
+			"minecraft:chorus_plant",
+			"fokastudio:shattered_end/bricks_scattered"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			
+			"fokastudio:shattered_end/bricks_scattered",
+			"fokastudio:midlands/pile_cobblestone",
+			"fokastudio:shattered_end/leaves",
+			"far_end:general/end_spike/center/2",
+			"far_end:general/end_spike/ring/1",
+			"far_end:general/end_spike/ring/2",
+			"far_end:general/end_spike/ring/3",
+			"far_end:general/end_spike/ring/4",
+			"far_end:general/end_spike/ring/5",
+			"far_end:general/end_spike/ring/6",
+			"far_end:general/end_spike/ring/7",
+			"far_end:general/end_spike/ring/8",
+			"far_end:general/end_spike/ring/9",
+			"far_end:general/end_spike/ring/10"
+		]
 	]
 }

@@ -10,11 +10,11 @@
 		"stem_state": {
 			"Name": "minecraft:mushroom_stem",
 			"Properties": {
-				"down": "false",
+				"down": "true",
 				"east": "true",
 				"north": "true",
 				"south": "true",
-				"up": "false",
+				"up": "true",
 				"west": "true"
 			}
 		},

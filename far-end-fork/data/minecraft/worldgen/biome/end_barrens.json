@@ -51,9 +51,11 @@
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite",
-            "fokastudio:barrens/hills",
-			"fokastudio:barrens/stalactite"
+			"fokastudio:barrens/hills",
+			"fokastudio:global/stalactite_1",
+			"fokastudio:barrens/stalactite",
+			"fokastudio:global/stalactite_2"
+			
 		],
 		[],
 		[],

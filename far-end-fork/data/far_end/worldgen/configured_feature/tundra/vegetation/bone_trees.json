@@ -31,7 +31,7 @@
               }
             },
             {
-              "chance": 0.142222,
+              "chance": 0.5,
               "feature": {
                 "feature": "far_end:tundra/tree/bone_fancy",
                 "placement": []
