@@ -1,0 +1,132 @@
+{
+  "temperature": -2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "effects": {
+    "sky_color": 5667492,
+    "fog_color": 4283249,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 8526876,
+    "foliage_color": 4422056,
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.warped_forest",
+      "min_delay": 3000,
+      "max_delay": 6000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.01428
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:endermite",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 6
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [
+      {
+        "type": "minecraft:stray",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "energy_budget": 0.24,
+      "charge": 1
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [
+      "fokastudio:nether/stalactite",
+      "fokastudio:nether/hills"
+    ],
+    [
+      "fokastudio:warped_forest/delta_1",
+      "fokastudio:warped_forest/delta_2",
+      "fokastudio:warped_forest/delta_3",
+      "fokastudio:warped_forest/lake_1",
+      "fokastudio:warped_forest/lake_2"
+        
+    ],
+    [
+      "minecraft:warped_forest_vegetation"
+    ],
+    [
+      "minecraft:basalt_pillar"
+    ],
+    [],
+    [
+      "minecraft:twisting_vines"
+    ],
+    [
+      "fokastudio:warped_forest/bush",
+      "minecraft:warped_fungi",
+      "fokastudio:warped_forest/ceiling_1",
+      "fokastudio:warped_forest/ceiling_2",
+      "fokastudio:warped_forest/ceiling_3",
+      "fokastudio:warped_forest/tree_1",
+      "fokastudio:warped_forest/tree_2"
+    ],
+    [
+      "minecraft:ore_blackstone",
+      "minecraft:ore_quartz_nether",
+      "minecraft:ore_debris_small",
+      "fokastudio:nether_geode"
+    ],
+    [],
+    [
+      "fokastudio:warped_forest/replace_blocks",
+      "fokastudio:warped_forest/replace_blocks_massive"
+    ],
+    [
+      "minecraft:glowstone",
+      "minecraft:glowstone_extra"
+    ]
+  ]
+}

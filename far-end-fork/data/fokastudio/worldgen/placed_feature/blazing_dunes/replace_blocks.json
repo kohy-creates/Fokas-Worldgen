@@ -20,9 +20,9 @@
 				}
 			}
 		},
-        {
-            "type": "in_square"
-        },
+		{
+			"type": "in_square"
+		},
 		{
 			"type": "minecraft:random_offset",
 			"xz_spread": {

@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 38,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:nether_bricks",
+          "probability": 0.0001
+        },
+        "state": {
+          "Name": "minecraft:ancient_debris"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:nether_bricks",
+          "probability": 0.05
+        },
+        "state": {
+          "Name": "minecraft:chiseled_nether_bricks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:nether_bricks",
+          "probability": 0.25
+        },
+        "state": {
+          "Name": "minecraft:cracked_nether_bricks"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:nether_bricks",
+          "probability": 0.43
+        },
+        "state": {
+          "Name": "minecraft:red_nether_bricks"
+        }
+      }
+    ]
+  }
+}

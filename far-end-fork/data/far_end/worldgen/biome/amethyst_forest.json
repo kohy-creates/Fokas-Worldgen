@@ -93,17 +93,8 @@
 			"far_end:amethyst/vegetation/patch_crying_obsidian"
 		],
 		[
-			"far_end:general/end_spike/center/2",
-			"far_end:general/end_spike/ring/1",
-			"far_end:general/end_spike/ring/2",
-			"far_end:general/end_spike/ring/3",
-			"far_end:general/end_spike/ring/4",
-			"far_end:general/end_spike/ring/5",
-			"far_end:general/end_spike/ring/6",
-			"far_end:general/end_spike/ring/7",
-			"far_end:general/end_spike/ring/8",
-			"far_end:general/end_spike/ring/9",
-			"far_end:general/end_spike/ring/10"
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "count",
-            "count": 20
+            "count": 250
         },
         {
             "type": "minecraft:in_square"
@@ -32,7 +32,7 @@
                     "minecraft:air"
                 ]
             },
-            "max_steps": 12
+            "max_steps": 32
         },
         {
             "type": "minecraft:biome"

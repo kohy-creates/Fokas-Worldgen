@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.6,
+    "vegetation_chance": 0.75,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "replaceable": "fokastudio:netherrack",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 18,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "weight": 64,
+                    "data": 7
+                  },
+                  {
+                    "weight": 32,
+                    "data": 9
+                  },
+                  {
+                    "weight": 16,
+                    "data": 11
+                  },
+                  {
+                    "weight": 8,
+                    "data": 13
+                  },
+                  {
+                    "weight": 4,
+                    "data": 15
+                  },
+                  {
+                    "weight": 2,
+                    "data": 17
+                  },
+                  {
+                    "weight": 1,
+                    "data": 19
+                  }
+                ]
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 10,
+                    "data": {
+                      "Name": "minecraft:packed_ice"
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:blue_ice"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:air"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

@@ -2,6 +2,10 @@
     "feature": "far_end:nest/geode/nest",
     "placement": [
         {
+            "type": "count",
+            "count": 6
+        },
+        {
             "type": "minecraft:rarity_filter",
             "chance": 1
         },

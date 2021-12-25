@@ -1,0 +1,132 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:crimson_nylium"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_crimson_stem",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:crimson_stem",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "distance": "1",
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "distance": "1",
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:shroomlight"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:nether_wart_block"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:fancy_trunk_placer",
+      "base_height": 8,
+      "height_rand_a": 13,
+      "height_rand_b": 9
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "offset": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "height": 3
+    },
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine"
+      },
+      {
+        "type": "minecraft:trunk_vine"
+      },
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:basalt",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "data": {
+                "Name": "minecraft:netherrack"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:nether_wart_block"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

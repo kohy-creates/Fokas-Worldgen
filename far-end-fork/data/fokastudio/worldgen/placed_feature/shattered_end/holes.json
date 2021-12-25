@@ -1,20 +1,14 @@
 {
-	"feature": "fokastudio:shattered_end/hills",
+	"feature": "fokastudio:shattered_end/holes",
 	"placement": [
 		{
 			"type": "minecraft:count",
 			"count": {
-				"type": "minecraft:weighted_list",
-				"distribution": [
-					{
-						"weight": 100,
-						"data": 17
-					},
-					{
-						"weight": 0,
-						"data": 17
-					}
-				]
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 12,
+					"max_inclusive": 19
+				}
 			}
 		},
 		{

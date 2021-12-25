@@ -19,7 +19,7 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 5,
+					"weight": 700,
 					"data": {
 						"Name": "minecraft:deepslate",
 						"Properties": {
@@ -28,9 +28,45 @@
 					}
 				},
 				{
-					"weight": 1,
+					"weight": 500,
 					"data": {
 						"Name": "minecraft:cobbled_deepslate"
+					}
+				},
+				{
+					"weight": 280,
+					"data": {
+						"Name": "minecraft:polished_deepslate"
+					}
+				},
+				{
+					"weight": 20,
+					"data": {
+						"Name": "minecraft:deepslate_coal_ore"
+					}
+				},
+				{
+					"weight": 10,
+					"data": {
+						"Name": "minecraft:deepslate_iron_ore"
+					}
+				},
+				{
+					"weight": 5,
+					"data": {
+						"Name": "minecraft:deepslate_gold_ore"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:deepslate_emerald_ore"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:deepslate_diamond_ore"
 					}
 				}
 			]
@@ -54,7 +90,7 @@
 								"type": "minecraft:weighted_state_provider",
 								"entries": [
 									{
-										"weight": 5,
+										"weight": 120,
 										"data": {
 											"Name": "minecraft:deepslate",
 											"Properties": {
@@ -63,9 +99,45 @@
 										}
 									},
 									{
-										"weight": 1,
+										"weight": 90,
 										"data": {
 											"Name": "minecraft:cobbled_deepslate"
+										}
+									},
+									{
+										"weight": 40,
+										"data": {
+											"Name": "minecraft:polished_deepslate"
+										}
+									},
+									{
+										"weight": 20,
+										"data": {
+											"Name": "minecraft:deepslate_coal_ore"
+										}
+									},
+									{
+										"weight": 10,
+										"data": {
+											"Name": "minecraft:deepslate_iron_ore"
+										}
+									},
+									{
+										"weight": 5,
+										"data": {
+											"Name": "minecraft:deepslate_gold_ore"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:deepslate_emerald_ore"
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:deepslate_diamond_ore"
 										}
 									}
 								]

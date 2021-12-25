@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 1,
+		"vertical_range": 15,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.3,
+		"vegetation_chance": 0,
+		"xz_radius": 7,
+		"replaceable": "fokastudio:netherrack",
+		"ground_state": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 40,
+					"data": {
+						"Name": "minecraft:crimson_nylium"
+					}
+				},
+				{
+					"weight": 9,
+					"data": {
+						"Name": "minecraft:warped_nylium"
+					}
+				}
+			]
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:no_op",
+				"config": {}
+			},
+			"placement": []
+		}
+	}
+}

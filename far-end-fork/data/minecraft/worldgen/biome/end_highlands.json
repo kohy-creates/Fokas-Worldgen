@@ -2,7 +2,7 @@
 	"temperature": 0.5,
 	"downfall": 0.5,
 	"precipitation": "none",
-	"category": "the_end",
+	"category": "forest",
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 10518688,
@@ -11,8 +11,8 @@
 		"grass_color": 13198446,
 		"foliage_color": 14237542,
 		"mood_sound": {
-			"sound": "minecraft:ambient.cave",
-			"tick_delay": 6000,
+			"sound": "minecraft:block.amethyst_block.chime",
+			"tick_delay": 100,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -24,7 +24,7 @@
 		},
 		"particle": {
 			"options": {
-				"type": "wax_off"
+				"type": "crimson_spore"
 			},
 			"probability": 0.00125
 		}
@@ -36,28 +36,15 @@
 				"weight": 10,
 				"minCount": 4,
 				"maxCount": 4
-			}
-		],
-		"creature": [
-			{
-				"type": "minecraft:pig",
-				"weight": 10,
-				"minCount": 1,
-				"maxCount": 3
 			},
 			{
-				"type": "minecraft:cow",
+				"type": "minecraft:hoglin",
 				"weight": 10,
-				"minCount": 1,
-				"maxCount": 3
-			},
-			{
-				"type": "minecraft:sheep",
-				"weight": 10,
-				"minCount": 1,
-				"maxCount": 3
+				"minCount": 4,
+				"maxCount": 4
 			}
 		],
+		"creature": [],
 		"ambient": [],
 		"axolotls": [],
 		"underground_water_creature": [],
@@ -92,17 +79,9 @@
 			"fokastudio:highlands/chorus_plant"
 		],
 		[
-			"far_end:general/end_spike/center/2",
-			"far_end:general/end_spike/ring/1",
-			"far_end:general/end_spike/ring/2",
-			"far_end:general/end_spike/ring/3",
-			"far_end:general/end_spike/ring/4",
-			"far_end:general/end_spike/ring/5",
-			"far_end:general/end_spike/ring/6",
-			"far_end:general/end_spike/ring/7",
-			"far_end:general/end_spike/ring/8",
-			"far_end:general/end_spike/ring/9",
-			"far_end:general/end_spike/ring/10"
+			"fokastudio:highlands/replace_blocks",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

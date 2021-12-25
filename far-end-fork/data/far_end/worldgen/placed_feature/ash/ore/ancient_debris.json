@@ -14,7 +14,7 @@
         },
         {
             "type": "minecraft:noise_based_count",
-            "noise_to_count_ratio": 1,
+            "noise_to_count_ratio": 2,
             "noise_factor": 10,
             "noise_offset": -0.3
         },
@@ -45,7 +45,8 @@
                         "blocks": [
                             "minecraft:blackstone",
                             "minecraft:basalt",
-                            "minecraft:end_stone"
+                            "minecraft:end_stone",
+                            "tuff"
                         ]
                     },
                     {
@@ -53,7 +54,8 @@
                         "blocks": [
                             "minecraft:blackstone",
                             "minecraft:basalt",
-                            "minecraft:end_stone"
+                            "minecraft:end_stone",
+                            "tuff"
                         ]
                     },
                     {

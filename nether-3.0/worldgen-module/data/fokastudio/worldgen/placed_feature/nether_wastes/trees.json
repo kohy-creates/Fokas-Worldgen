@@ -1,0 +1,32 @@
+{
+  "feature": "fokastudio:nether_wastes/trees",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					
+          "mycelium",
+          "netherrack"
+				]
+			}
+		},
+    {
+      "type": "rarity_filter",
+      "chance": 4
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "feature": "fokastudio:warped_forest/delta_2",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    }
+  ]
+}

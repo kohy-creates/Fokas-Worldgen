@@ -1,3 +1,3 @@
-tp @s 12 124 0
+tp @s 12 190 0
 
 advancement revoke @s only far_end:events/enter_end

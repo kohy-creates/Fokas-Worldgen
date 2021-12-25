@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:vine"
+        },
+        "state": {
+          "Name": "minecraft:powder_snow"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:lava"
+        },
+        "state": {
+          "Name": "minecraft:packed_ice"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:basalt"
+        },
+        "state": {
+          "Name": "minecraft:stripped_warped_hyphae",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:gravel"
+        },
+        "state": {
+          "Name": "minecraft:white_concrete_powder"
+        }
+      }
+    ]
+  }
+}

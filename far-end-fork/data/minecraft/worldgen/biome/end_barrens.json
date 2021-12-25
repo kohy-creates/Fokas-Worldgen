@@ -2,7 +2,7 @@
 	"temperature": 0.5,
 	"downfall": 0.5,
 	"precipitation": "none",
-	"category": "the_end",
+	"category": "desert",
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 16676606,
@@ -10,6 +10,10 @@
 		"water_fog_color": 3156295,
 		"grass_color": 4994644,
 		"foliage_color": 5585503,
+		"additions_sound": {
+			"sound": "ambient.underwater.additions.rare",
+			"tick_chance": 0.005
+		},
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 400,
@@ -43,10 +47,7 @@
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			"far_end:surface_scar",
-			"cave",
-			"cave_extra_underground",
-			"canyon"
+			"far_end:surface_scar"
 		]
 	},
 	"features": [
@@ -68,17 +69,8 @@
 		[],
 		[
 			"fokastudio:shattered_end/bricks_scattered",
-			"far_end:general/end_spike/center/2",
-			"far_end:general/end_spike/ring/1",
-			"far_end:general/end_spike/ring/2",
-			"far_end:general/end_spike/ring/3",
-			"far_end:general/end_spike/ring/4",
-			"far_end:general/end_spike/ring/5",
-			"far_end:general/end_spike/ring/6",
-			"far_end:general/end_spike/ring/7",
-			"far_end:general/end_spike/ring/8",
-			"far_end:general/end_spike/ring/9",
-			"far_end:general/end_spike/ring/10"
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

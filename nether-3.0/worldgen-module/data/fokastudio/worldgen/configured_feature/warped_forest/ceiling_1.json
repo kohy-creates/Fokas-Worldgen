@@ -1,0 +1,153 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.3,
+    "vegetation_chance": 0.65,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 7
+      }
+    },
+    "replaceable": "fokastudio:netherrack",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 18,
+          "data": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:warped_wart_block"
+          }
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "weight": 64,
+                    "data": 1
+                  },
+                  {
+                    "weight": 32,
+                    "data": 3
+                  },
+                  {
+                    "weight": 16,
+                    "data": 5
+                  },
+                  {
+                    "weight": 8,
+                    "data": 7
+                  },
+                  {
+                    "weight": 4,
+                    "data": 9
+                  },
+                  {
+                    "weight": 2,
+                    "data": 11
+                  },
+                  {
+                    "weight": 1,
+                    "data": 13
+                  }
+                ]
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 25,
+                    "data": {
+                      "Name": "minecraft:warped_wart_block"
+                    }
+                  },
+                  {
+                    "weight": 16,
+                    "data": {
+                      "Name": "minecraft:cyan_terracotta"
+                    }
+                  },
+                  {
+                    "weight": 3,
+                    "data": {
+                      "Name": "minecraft:cyan_concrete"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 340,
+                    "data": {
+                      "Name": "minecraft:stripped_warped_hyphae",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 27,
+                    "data": {
+                      "Name": "minecraft:shroomlight"
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:glowstone"
+                    }
+                  },
+                  {
+                    "weight": 600,
+                    "data": {
+                      "Name": "minecraft:warped_wart_block"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

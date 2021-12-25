@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.6,
+    "vegetation_chance": 0.3,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "replaceable": "fokastudio:netherrack",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        {
+          "weight": 21,
+          "data": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "weight": 64,
+                    "data": 7
+                  },
+                  {
+                    "weight": 32,
+                    "data": 11
+                  },
+                  {
+                    "weight": 16,
+                    "data": 15
+                  },
+                  {
+                    "weight": 8,
+                    "data": 19
+                  },
+                  {
+                    "weight": 4,
+                    "data": 23
+                  },
+                  {
+                    "weight": 2,
+                    "data": 27
+                  },
+                  {
+                    "weight": 1,
+                    "data": 31
+                  }
+                ]
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:cave_vines_plant",
+                      "Properties": {
+                        "berries": "true"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 46,
+                    "data": {
+                      "Name": "minecraft:cave_vines_plant",
+                      "Properties": {
+                        "berries": "false"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:randomized_int_state_provider",
+                "property": "age",
+                "values": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 17,
+                    "max_inclusive": 25
+                  }
+                },
+                "source": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:cave_vines",
+                        "Properties": {
+                          "age": "0",
+                          "berries": "true"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 46,
+                      "data": {
+                        "Name": "minecraft:cave_vines",
+                        "Properties": {
+                          "age": "0",
+                          "berries": "false"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

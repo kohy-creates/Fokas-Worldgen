@@ -1,0 +1,8 @@
+tellraw @a {"text":" "}
+tellraw @a [{"text":"Nether 3.0","color":"#FF4F51"},{"text":" has succesfully loaded and is ready to play!","color":"#74D979"}]
+tellraw @a [{"text":"Datapack made by","color":"#BE5655"},{"text":" FokaStudio","color":"#970001"}]
+tellraw @a {"text":" "}
+tellraw @a [{"text":"https://","color":"#9EE6FF","clickEvent":{"action":"open_url","value":"https://patreon.com/FokaStudio"},"hoverEvent":{"action":"show_text","contents":"Support my work!"}},{"text":"patreon.com","color":"#FFB04F","clickEvent":{"action":"open_url","value":"https://patreon.com/FokaStudio"},"hoverEvent":{"action":"show_text","contents":"Support my work!"}},{"text":"/","color":"#9EE6FF","clickEvent":{"action":"open_url","value":"https://patreon.com/FokaStudio"},"hoverEvent":{"action":"show_text","contents":"Support my work!"}},{"text":"FokaStudio","color":"#FF4F51","clickEvent":{"action":"open_url","value":"https://patreon.com/FokaStudio"},"hoverEvent":{"action":"show_text","contents":"Support my work!"}}]
+tellraw @a [{"text":"https://","color":"#9EE6FF","clickEvent":{"action":"open_url","value":"https://discord.com/J6guYAySN8"},"hoverEvent":{"action":"show_text","contents":"Join my Discord!"}},{"text":"discord.com","color":"#6C4FFF","clickEvent":{"action":"open_url","value":"https://discord.com/Z8CWTKudMQ"},"hoverEvent":{"action":"show_text","contents":"Join my Discord!"}},{"text":"/","color":"#9EE6FF","clickEvent":{"action":"open_url","value":"https://discord.com/Z8CWTKudMQ"},"hoverEvent":{"action":"show_text","contents":"Join my Discord!"}},{"text":"Z8CWTKudMQ","color":"#4F8CFF","clickEvent":{"action":"open_url","value":"https://discord.com/Z8CWTKudMQ"},"hoverEvent":{"action":"show_text","contents":"Join my Discord!"}}]
+
+function fokastudio:nether/fix_fire

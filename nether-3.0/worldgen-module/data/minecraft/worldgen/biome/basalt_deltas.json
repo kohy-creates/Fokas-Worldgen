@@ -1,0 +1,133 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "nether",
+  "effects": {
+    "sky_color": 6577768,
+    "fog_color": 5065040,
+    "water_color": 4159204,
+    "water_fog_color": 4341314,
+    "grass_color": 4209210,
+    "foliage_color": 3683123,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.basalt_deltas",
+      "min_delay": 3000,
+      "max_delay": 6000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 150,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 90,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:ghast",
+        "weight": 150,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:ghast": {
+      "energy_budget": 0.1,
+      "charge": 3
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [
+      "fokastudio:nether/stalactite",
+      "fokastudio:nether/hills",
+      "fokastudio:basalt_deltas/stalactite",
+      "fokastudio:basalt_deltas/hills"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:delta",
+      "minecraft:small_basalt_columns",
+      "minecraft:large_basalt_columns"
+    ],
+    [],
+    [],
+    [
+      "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed_double",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_quartz_deltas",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small"
+    ],
+    [],
+    [
+      "fokastudio:nether_geode"
+    ],
+    [
+      "fokastudio:basalt_deltas/addition_6",
+      "fokastudio:basalt_deltas/addition_5",
+      "fokastudio:basalt_deltas/addition_4",
+      "fokastudio:basalt_deltas/addition_3",
+      "fokastudio:basalt_deltas/addition_2",
+      "fokastudio:basalt_deltas/addition_1",
+      "fokastudio:basalt_deltas/tree",
+      "fokastudio:basalt_deltas/fortress"
+    ]
+  ]
+}

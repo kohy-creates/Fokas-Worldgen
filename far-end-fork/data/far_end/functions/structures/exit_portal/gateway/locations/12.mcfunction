@@ -1,3 +1,3 @@
-execute positioned -92 135 -30 run function far_end:structures/exit_portal/gateway/generate
+execute positioned -92 256 -30 run summon marker ~ ~ ~ {Tags:["foka.gateway_utility"]}
 tag @s add fe.location_12
 tag @s remove fe.generate_gateway

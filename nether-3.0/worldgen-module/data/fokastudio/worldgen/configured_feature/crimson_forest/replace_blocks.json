@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:basalt"
+        },
+        "state": {
+          "Name": "minecraft:stripped_crimson_hyphae",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:gravel"
+        },
+        "state": {
+          "Name": "minecraft:red_concrete_powder"
+        }
+      }
+    ]
+  }
+}

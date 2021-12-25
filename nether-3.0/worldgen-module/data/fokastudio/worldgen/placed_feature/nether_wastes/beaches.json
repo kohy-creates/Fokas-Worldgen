@@ -1,0 +1,24 @@
+{
+  "feature": "fokastudio:nether_wastes/beaches",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 5
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 29
+        },
+        "max_inclusive": {
+          "absolute": 32
+        }
+      }
+    }
+  ]
+}

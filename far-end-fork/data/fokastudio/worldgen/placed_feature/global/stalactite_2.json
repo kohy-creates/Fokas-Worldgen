@@ -1,41 +1,9 @@
 {
-	"feature": "fokastudio:global/stalactite_2",
+	"feature": "fokastudio:small_end_islands/ceiling",
 	"placement": [
 		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:matching_block_tag",
-				"offset": [
-					0,
-					1,
-					0
-				],
-				"tag": "fokastudio:stalactites_replacable"
-			}
-		},
-		{
 			"type": "minecraft:count",
-			"count": {
-				"type": "minecraft:weighted_list",
-				"distribution": [
-					{
-						"weight": 100,
-						"data": 7
-					},
-					{
-						"weight": 50,
-						"data": 14
-					},
-					{
-						"weight": 25,
-						"data": 28
-					},
-					{
-						"weight": 1,
-						"data": 40
-					}
-				]
-			}
+			"count": 5
 		},
 		{
 			"type": "minecraft:in_square"
@@ -55,10 +23,9 @@
 		{
 			"type": "minecraft:environment_scan",
 			"direction_of_search": "up",
-			"max_steps": 32,
+			"max_steps": 12,
 			"target_condition": {
-				"type": "minecraft:has_sturdy_face",
-				"direction": "down"
+				"type": "minecraft:solid"
 			},
 			"allowed_search_condition": {
 				"type": "minecraft:matching_blocks",
@@ -74,12 +41,6 @@
 		},
 		{
 			"type": "minecraft:biome"
-		},
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 12,
-			"noise_factor": 55,
-			"noise_offset": 0
 		}
 	]
 }

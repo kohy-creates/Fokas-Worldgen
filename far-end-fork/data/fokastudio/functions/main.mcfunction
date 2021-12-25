@@ -1,1 +1,3 @@
 function fokastudio:shulker_sentry
+function fokastudio:end_gateway_loop
+function fokastudio:dragon_music

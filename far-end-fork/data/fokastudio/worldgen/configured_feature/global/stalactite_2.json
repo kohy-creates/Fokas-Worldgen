@@ -1,81 +1,35 @@
 {
-	"type": "minecraft:block_column",
+	"type": "minecraft:vegetation_patch",
 	"config": {
-		"direction": "down",
-		"allowed_placement": {
-			"type": "minecraft:matching_blocks",
-			"offset": [
-				0,
-				1,
-				0
-			],
-			"blocks": [
-				"minecraft:air"
-			]
-		},
-		"prioritize_tip": false,
-		"layers": [
-			{
-				"height": {
-					"type": "minecraft:weighted_list",
-					"distribution": [
-						{
-							"weight": 40,
-							"data": {
-								"type": "minecraft:uniform",
-								"value": {
-									"min_inclusive": 0,
-									"max_inclusive": 15
-								}
-							}
-						},
-						{
-							"weight": 30,
-							"data": {
-								"type": "minecraft:uniform",
-								"value": {
-									"min_inclusive": 5,
-									"max_inclusive": 20
-								}
-							}
-						},
-						{
-							"weight": 20,
-							"data": {
-								"type": "minecraft:uniform",
-								"value": {
-									"min_inclusive": 10,
-									"max_inclusive": 25
-								}
-							}
-						},
-						{
-							"weight": 10,
-							"data": {
-								"type": "minecraft:uniform",
-								"value": {
-									"min_inclusive": 15,
-									"max_inclusive": 30
-								}
-							}
-						}
-					]
-				},
-				"provider": {
-					"type": "minecraft:simple_state_provider",
-					"state": {
-						"Name": "minecraft:end_stone_brick_wall",
-						"Properties": {
-							"east": "none",
-							"north": "none",
-							"south": "none",
-							"up": "true",
-							"waterlogged": "false",
-							"west": "none"
-						}
-					}
-				}
+		"surface": "ceiling",
+		"depth": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 1,
+				"max_inclusive": 3
 			}
-		]
+		},
+		"vertical_range": 5,
+		"extra_bottom_block_chance": 0,
+		"extra_edge_column_chance": 0.3,
+		"vegetation_chance": 0.05,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 7
+			}
+		},
+		"replaceable": "far_end:end_stone",
+		"ground_state": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:end_stone"
+			}
+		},
+		"vegetation_feature": {
+			"feature": "fokastudio:global/stalactite_small",
+			"placement": []
+		}
 	}
 }
