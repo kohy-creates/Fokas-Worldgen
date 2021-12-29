@@ -113,7 +113,8 @@
 		"air": [
 			"minecraft:cave",
 			"minecraft:cave_extra_underground",
-			"minecraft:canyon"
+			"minecraft:canyon",
+			"fokastudio:crevice"
 		]
 	},
 	"features": [

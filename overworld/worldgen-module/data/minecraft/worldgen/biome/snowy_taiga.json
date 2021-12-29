@@ -5,7 +5,7 @@
 	"category": "taiga",
 	"effects": {
 		"sky_color": 8625919,
-		"fog_color": 2121347,
+		"fog_color": 12763842,
 		"water_color": 1129557,
 		"water_fog_color": 329011,
 		"grass_color": 16777215,
@@ -150,7 +150,8 @@
 		"air": [
 			"minecraft:cave",
 			"minecraft:cave_extra_underground",
-			"minecraft:canyon"
+			"minecraft:canyon",
+			"fokastudio:crevice"
 		]
 	},
 	"features": [

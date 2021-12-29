@@ -1,0 +1,396 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:chiseled_sandstone"
+				},
+				"state": {
+					"Name": "minecraft:chiseled_red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:terracotta"
+				},
+				"state": {
+					"Name": "minecraft:lime_terracotta"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:sandstone"
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:cut_sandstone"
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:smooth_sandstone"
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:smooth_red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cut_sandstone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:cut_red_sandstone_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "true"
+					}
+				}
+			}
+		]
+	}
+}

@@ -2,11 +2,30 @@
 	"feature": "fokastudio:global/cave_replace_blocks",
 	"placement": [
 		{
-			"type": "minecraft:count_on_every_layer",
+			"type": "minecraft:count",
 			"count": 256
 		},
 		{
+			"type": "minecraft:count",
+			"count": 2
+		},
+		{
 			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
 		}
 	]
 }

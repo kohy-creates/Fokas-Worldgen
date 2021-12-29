@@ -8,11 +8,8 @@
 		"fog_color": 14598542,
 		"water_color": 3318904,
 		"water_fog_color": 1996368,
-		"grass_color": 14145922,
-		"foliage_color": 12041573,
-		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
 		"mood_sound": {
-			"sound": "minecraft:ambient.soul_sand_valley.mood",
+			"sound": "minecraft:ambient.cave",
 			"tick_delay": 6000,
 			"block_search_extent": 8,
 			"offset": 2
@@ -109,7 +106,8 @@
 		"air": [
 			"minecraft:cave",
 			"minecraft:cave_extra_underground",
-			"minecraft:canyon"
+			"minecraft:canyon",
+			"fokastudio:crevice"
 		]
 	},
 	"features": [
