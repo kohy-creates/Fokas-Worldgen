@@ -1,5 +1,4 @@
-execute at @s[distance=150..] in minecraft:the_end run bossbar set fe:ender_dragon visible false
-execute at @s[distance=150..] in minecraft:the_end run tag @a add foka.dragon_music.removal_schedule
+execute at @s as @a[distance=150..] run tag @s add foka.dragon_music.removal_schedule
 
-execute at @s[distance=..150] in minecraft:the_end run bossbar set fe:ender_dragon visible true
-execute at @s[distance=..150] in minecraft:the_end run tag @a add foka.dragon_music
+execute at @s as @a[distance=..150] run tag @s add foka.dragon_music
+execute at @s as @a[distance=..150] if entity @s run bossbar set fe:ender_dragon players @s
