@@ -12,6 +12,10 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "fokastudio:fsee/locations/biomes/in_amethyst_forest"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:fsee/locations/biomes/in_frosted_hills"
 		}
 	]
 }
