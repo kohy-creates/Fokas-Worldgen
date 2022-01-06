@@ -22,12 +22,6 @@
 			"sound": "ambient.underwater.loop.additions.ultra_rare",
 			"tick_chance": 0.001
 		},
-		"music": {
-			"sound": "music.nether.nether_waste",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "dripping_obsidian_tear"
@@ -94,7 +88,8 @@
 		],
 		[
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

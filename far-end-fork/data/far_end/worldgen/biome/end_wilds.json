@@ -23,12 +23,6 @@
 			"sound": "ambient.soul_sand_valley.additions",
 			"tick_chance": 0.05
 		},
-		"music": {
-			"sound": "music.nether.crimson_forest",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "spore_blossom_air"
@@ -86,7 +80,8 @@
 		[
 			"far_end:wilds/vegetation/chorus_plant",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

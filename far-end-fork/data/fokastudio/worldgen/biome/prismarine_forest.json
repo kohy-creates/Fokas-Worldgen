@@ -1,0 +1,97 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"category": "the_end",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 16636149,
+		"water_color": 15979007,
+		"water_fog_color": 329011,
+		"grass_color": 3892594,
+		"foliage_color": 11392511,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_delay": 400,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
+			"tick_chance": 0.01
+		},
+		"particle": {
+			"options": {
+				"type": "dripping_obsidian_tear"
+			},
+			"probability": 0.005
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:creeper",
+				"weight": 1,
+				"minCount": 3,
+				"maxCount": 7
+			}
+		],
+		"water_creature": [
+			{
+				"type": "minecraft:elder_guardian",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:tropical_fish",
+				"weight": 200,
+				"minCount": 0,
+				"maxCount": 0
+			},
+			{
+				"type": "minecraft:guardian",
+				"weight": 20,
+				"minCount": 1,
+				"maxCount": 3
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
+	"features": [
+		[
+			//"far_end:prismarine_forest_lake"
+		],
+		[
+			"minecraft:dark_forest_vegetation",
+			"minecraft:chorus_plant"//,
+			//"far_end:end_stone_tree"
+		],
+		[
+			"minecraft:patch_grass_forest",
+			"minecraft:patch_tall_grass",
+			"minecraft:patch_crimson_roots",
+			"minecraft:patch_waterlily",
+			"minecraft:seagrass_normal"//,
+			//"far_end:flower",
+			//"far_end:wood_pile",
+			//"far_end:end_diamond",
+			//"far_end:amethyst"
+    ],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[]
+	]
+}

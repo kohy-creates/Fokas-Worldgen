@@ -23,12 +23,6 @@
 			"sound": "ambient.crimson_forest.additions",
 			"tick_chance": 0.0025
 		},
-		"music": {
-			"sound": "music.end",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "minecraft:ash"
@@ -94,7 +88,8 @@
 			"fokastudio:nest/replace_blocks",
 			"fokastudio:nest/transition",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

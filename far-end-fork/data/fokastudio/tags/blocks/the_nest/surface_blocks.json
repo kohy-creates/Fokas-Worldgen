@@ -13,6 +13,10 @@
 		"deepslate_iron_ore",
 		"deepslate_diamond_ore",
 		"deepslate_emerald_ore",
-		"deepslate_gold_ore"
+		"deepslate_gold_ore",
+		"cobblestone",
+		"andesite",
+		"obsidian",
+		"crying_obsidian"
 	]
 }

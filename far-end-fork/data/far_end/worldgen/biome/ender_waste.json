@@ -86,7 +86,8 @@
 		[
 			"far_end:waste/chorus_plant",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_eye"
+		},
+		"title": {
+			"translate": "We Need to Go Further"
+		},
+		"description": {
+			"translate": "Escape the Dragon's Den and explore the Far End"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"escape_den": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "fokastudio:fsee/locations/in_main_area"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"escape_den"
+		]
+	]
+}

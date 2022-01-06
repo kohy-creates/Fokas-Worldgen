@@ -1,0 +1,1705 @@
+{
+	"type": "minecraft:ore",
+	"config": {
+		"size": 64,
+		"discard_chance_on_air_exposure": 0,
+		"targets": [
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:infested_stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:mossy_stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:infested_mossy_stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:cracked_stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:infested_cracked_stone_bricks"
+				},
+				"state": {
+					"Name": "minecraft:end_stone_bricks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "north",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "north",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "north",
+							"half": "upper",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "north",
+						"half": "upper",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "north",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "north",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "north",
+							"half": "upper",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "north",
+						"half": "upper",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "south",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "south",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "south",
+							"half": "upper",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "south",
+						"half": "upper",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "south",
+							"half": "lower",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "south",
+						"half": "lower",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "south",
+							"half": "upper",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "south",
+						"half": "upper",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "east",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "east",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "east",
+							"half": "upper",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "east",
+						"half": "upper",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "east",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "east",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "east",
+							"half": "upper",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "east",
+						"half": "upper",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "west",
+							"half": "lower",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "west",
+						"half": "lower",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "west",
+							"half": "upper",
+							"hinge": "left",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "west",
+						"half": "upper",
+						"hinge": "left",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "west",
+							"half": "lower",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "west",
+						"half": "lower",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_door",
+						"Properties": {
+							"facing": "west",
+							"half": "upper",
+							"hinge": "right",
+							"open": "false",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_door",
+					"Properties": {
+						"facing": "west",
+						"half": "upper",
+						"hinge": "right",
+						"open": "false",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:iron_bars",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:crimson_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_stone_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_stone_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:smooth_stone_slab",
+						"Properties": {
+							"type": "double",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:wall_torch",
+						"Properties": {
+							"facing": "north"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:soul_wall_torch",
+					"Properties": {
+						"facing": "north"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:wall_torch",
+						"Properties": {
+							"facing": "south"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:soul_wall_torch",
+					"Properties": {
+						"facing": "south"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:wall_torch",
+						"Properties": {
+							"facing": "east"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:soul_wall_torch",
+					"Properties": {
+						"facing": "east"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:wall_torch",
+						"Properties": {
+							"facing": "west"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:soul_wall_torch",
+					"Properties": {
+						"facing": "west"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_slab",
+						"Properties": {
+							"type": "top",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:end_stone_brick_slab",
+					"Properties": {
+						"type": "top",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:end_stone_brick_slab",
+					"Properties": {
+						"type": "bottom",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_slab",
+						"Properties": {
+							"type": "double",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:end_stone_brick_slab",
+					"Properties": {
+						"type": "double",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "wall",
+							"facing": "north",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:polished_blackstone_button",
+					"Properties": {
+						"face": "wall",
+						"facing": "north",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "wall",
+							"facing": "south",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:polished_blackstone_button",
+					"Properties": {
+						"face": "wall",
+						"facing": "south",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "wall",
+							"facing": "east",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:polished_blackstone_button",
+					"Properties": {
+						"face": "wall",
+						"facing": "east",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_button",
+						"Properties": {
+							"face": "wall",
+							"facing": "west",
+							"powered": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:polished_blackstone_button",
+					"Properties": {
+						"face": "wall",
+						"facing": "west",
+						"powered": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:end_portal_frame"
+				},
+				"state": {
+					"Name": "minecraft:obsidian"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:cobblestone"
+				},
+				"state": {
+					"Name": "minecraft:blackstone"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:oak_planks"
+				},
+				"state": {
+					"Name": "minecraft:warped_planks"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "true"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "true"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "true",
+							"south": "false",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "true",
+						"south": "false",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "false",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "false",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:oak_fence",
+						"Properties": {
+							"east": "true",
+							"north": "false",
+							"south": "true",
+							"waterlogged": "false",
+							"west": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:warped_fence",
+					"Properties": {
+						"east": "true",
+						"north": "false",
+						"south": "true",
+						"waterlogged": "false",
+						"west": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:torch"
+				},
+				"state": {
+					"Name": "minecraft:soul_torch"
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cobblestone_stairs",
+						"Properties": {
+							"facing": "north",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "north",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cobblestone_stairs",
+						"Properties": {
+							"facing": "south",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "south",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cobblestone_stairs",
+						"Properties": {
+							"facing": "east",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "east",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:cobblestone_stairs",
+						"Properties": {
+							"facing": "west",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "west",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			}
+
+
+
+
+
+			,
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_stairs",
+						"Properties": {
+							"facing": "north",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "north",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_stairs",
+						"Properties": {
+							"facing": "south",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "south",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_stairs",
+						"Properties": {
+							"facing": "east",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "east",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:blockstate_match",
+					"block_state": {
+						"Name": "minecraft:stone_brick_stairs",
+						"Properties": {
+							"facing": "west",
+							"half": "bottom",
+							"shape": "straight",
+							"waterlogged": "false"
+						}
+					}
+				},
+				"state": {
+					"Name": "minecraft:purpur_stairs",
+					"Properties": {
+						"facing": "west",
+						"half": "bottom",
+						"shape": "straight",
+						"waterlogged": "false"
+					}
+				}
+			}
+		]
+	}
+}

@@ -19,12 +19,6 @@
 		"additions_sound": {
 			"sound": "minecraft:ambient.crimson_forest.additions",
 			"tick_chance": 0
-		},
-		"music": {
-			"sound": "minecraft:music.overworld.meadow",
-			"min_delay": 12000,
-			"max_delay": 24000,
-			"replace_current_music": false
 		}
 	},
 	"spawners": {
@@ -77,7 +71,8 @@
 		[],
 		[
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

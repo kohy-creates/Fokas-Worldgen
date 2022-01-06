@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"title": {
+			"translate": "Home Sweet Home"
+		},
+		"description": {
+			"translate": "Jump into the Portal again to return to the Overworld"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"return_home": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_end",
+				"to": "minecraft:overworld"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"return_home"
+		]
+	]
+}

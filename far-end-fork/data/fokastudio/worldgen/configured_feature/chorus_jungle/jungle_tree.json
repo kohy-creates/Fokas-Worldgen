@@ -33,7 +33,7 @@
 						"Name": "minecraft:oak_leaves",
 						"Properties": {
 							"distance": "1",
-							"persistent": "false"
+							"persistent": "true"
 						}
 					}
 				},
@@ -43,7 +43,7 @@
 						"Name": "minecraft:acacia_leaves",
 						"Properties": {
 							"distance": "1",
-							"persistent": "false"
+							"persistent": "true"
 						}
 					}
 				}

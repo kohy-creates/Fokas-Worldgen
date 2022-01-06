@@ -22,12 +22,6 @@
 			"sound": "minecraft:ambient.nether_wastes.additions",
 			"tick_chance": 0.005
 		},
-		"music": {
-			"sound": "music.nether.nether_wastes",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "glow_squid_ink"
@@ -88,7 +82,8 @@
 		[
 			"fokastudio:glowshroom_valley/replace_blocks",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

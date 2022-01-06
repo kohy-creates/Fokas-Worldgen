@@ -34,15 +34,6 @@
 							"axis": "y"
 						}
 					}
-				},
-				{
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:purpur_pillar",
-						"Properties": {
-							"axis": "y"
-						}
-					}
 				}
 			]
 		},
@@ -50,21 +41,39 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 3,
+					"weight": 10,
 					"data": {
-						"Name": "minecraft:budding_amethyst"
-					}
-				},
-				{
-					"weight": 30,
-					"data": {
-						"Name": "minecraft:amethyst_block"
+						"Name": "minecraft:acacia_leaves",
+						"Properties": {
+							"distance": "1",
+							"persistent": "true"
+						}
 					}
 				},
 				{
 					"weight": 1,
 					"data": {
 						"Name": "minecraft:glowstone"
+					}
+				},
+				{
+					"weight": 10,
+					"data": {
+						"Name": "minecraft:dark_oak_leaves",
+						"Properties": {
+							"distance": "1",
+							"persistent": "true"
+						}
+					}
+				},
+				{
+					"weight": 10,
+					"data": {
+						"Name": "minecraft:oak_leaves",
+						"Properties": {
+							"distance": "1",
+							"persistent": "true"
+						}
 					}
 				}
 			]
@@ -100,7 +109,7 @@
 							}
 						},
 						{
-							"weight": 13,
+							"weight": 50,
 							"data": {
 								"Name": "minecraft:grass_block",
 								"Properties": {
@@ -109,15 +118,21 @@
 							}
 						},
 						{
-							"weight": 2,
+							"weight": 1,
 							"data": {
 								"Name": "minecraft:end_stone"
 							}
 						},
 						{
-							"weight": 4,
+							"weight": 15,
 							"data": {
 								"Name": "minecraft:rooted_dirt"
+							}
+						},
+						{
+							"weight": 20,
+							"data": {
+								"Name": "minecraft:coarse_dirt"
 							}
 						}
 					]

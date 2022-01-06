@@ -21,12 +21,6 @@
 			"sound": "ambient.soul_sand_valley.additions",
 			"tick_chance": 0.005
 		},
-		"music": {
-			"sound": "music.nether.basalt_deltas",
-			"min_delay": 2500,
-			"max_delay": 10000,
-			"replace_current_music": true
-		},
 		"particle": {
 			"options": {
 				"type": "lava"
@@ -100,7 +94,8 @@
 			"fokastudio:blazing_dunes/replace_blocks",
 			"fokastudio:blazing_dunes/transition",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

@@ -23,12 +23,6 @@
 		"sound": "minecraft:ambient.basalt_deltas.additions",
 		"tick_chance": 0.05
 	},
-	"music": {
-		"sound": "music.nether.basalt_deltas",
-		"min_delay": 100,
-		"max_delay": 200,
-		"replace_current_music": false
-	},
 	"particle": {
 		"options": {
 		"type": "white_ash"
@@ -116,7 +110,8 @@
 			"fokastudio:ash/magma",
 			"fokastudio:ash/patch_soul_fire",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

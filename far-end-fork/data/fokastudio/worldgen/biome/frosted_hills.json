@@ -1,0 +1,92 @@
+{
+	"temperature": -0.5,
+	"downfall": 0.4,
+	"precipitation": "snow",
+	"temperature_modifier": "frozen",
+	"category": "icy",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 7515062,
+		"water_fog_color": 4420745,
+		"grass_color": 30592,
+		"foliage_color": 105867,
+		"ambient_sound": "ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "ambient.warped_forest.mood",
+			"tick_delay": 500,
+			"block_search_extent": 10,
+			"offset": 100
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.01333
+		},
+		"particle": {
+			"options": {
+				"type": "snowflake"
+			},
+			"probability": 0.01
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:stray",
+				"weight": 40,
+				"minCount": 2,
+				"maxCount": 7
+			},
+			{
+				"type": "minecraft:phantom",
+				"weight": 25,
+				"minCount": 2,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 15,
+				"minCount": 3,
+				"maxCount": 7
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:frosted_hills/hills",
+			"fokastudio:frosted_hills/icicle",
+			"fokastudio:frosted_hills/icicle_upwards"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"minecraft:end_gateway_return"
+		],
+		[],
+		[
+			"fokastudio:global/snowy/first_layer",
+			"fokastudio:global/snowy/second_layer",
+			"fokastudio:global/snowy/third_layer"
+		],
+		[
+			"fokastudio:frosted_hills/ore_blue_ice",
+			"fokastudio:frosted_hills/ore_snow",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
+		]
+	]
+}

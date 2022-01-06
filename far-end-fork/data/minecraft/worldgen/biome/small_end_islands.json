@@ -21,12 +21,6 @@
 			"sound": "ambient.nether_wastes.additions",
 			"tick_chance": 0.005
 		},
-		"music": {
-			"sound": "music.end",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": true
-		},
 		"particle": {
 			"options": {
 				"type": "dragon_breath"
@@ -96,7 +90,8 @@
 		[
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

@@ -16,12 +16,6 @@
 			"block_search_extent": 8,
 			"offset": 2
 		},
-		"music": {
-			"sound": "music.overworld.lush_caves",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "crimson_spore"
@@ -81,7 +75,8 @@
 		[
 			"fokastudio:highlands/replace_blocks",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

@@ -1,7 +1,7 @@
 {
-	"type": "minecraft:random_patch",
+	"type": "minecraft:flower",
 	"config": {
-		"tries": 150,
+		"tries": 250,
 		"xz_spread": 7,
 		"y_spread": 3,
 		"feature": {
@@ -57,7 +57,17 @@
 					}
 				}
 			},
-			"placement": []
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				}
+			]
 		}
 	}
 }

@@ -90,7 +90,7 @@
 								"type": "minecraft:weighted_state_provider",
 								"entries": [
 									{
-										"weight": 120,
+										"weight": 360,
 										"data": {
 											"Name": "minecraft:deepslate",
 											"Properties": {
@@ -99,13 +99,13 @@
 										}
 									},
 									{
-										"weight": 90,
+										"weight": 270,
 										"data": {
 											"Name": "minecraft:cobbled_deepslate"
 										}
 									},
 									{
-										"weight": 40,
+										"weight": 120,
 										"data": {
 											"Name": "minecraft:polished_deepslate"
 										}

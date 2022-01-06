@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"eat_chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_chorus_fruit"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/chorus_fruit_buff"
+	}
+}

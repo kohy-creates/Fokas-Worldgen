@@ -23,12 +23,6 @@
 			"sound": "ambient.warped_forest.additions",
 			"tick_chance": 0.0111
 		},
-		"music": {
-			"sound": "music.nether.crimson_forest",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": false
-		},
 		"particle": {
 			"options": {
 				"type": "warped_spore"
@@ -105,7 +99,8 @@
 		],
 		[
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
 		]
 	]
 }

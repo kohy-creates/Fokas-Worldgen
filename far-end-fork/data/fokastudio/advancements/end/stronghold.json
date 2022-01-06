@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone_bricks"
+		},
+		"title": {
+			"translate": ""
+		},
+		"description": {
+			"translate": "Find an Ender Stronghold"
+		}
+	},
+	"criteria": {
+		"find_stronghold": {
+			"trigger": "minecraft:location",
+			"conditionas": {
+				"location": {
+					"feature": "stronghold",
+					"dimension": "minecraft:the_end"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"find_stronghold"
+		]
+	],
+	"rewards": {}
+}

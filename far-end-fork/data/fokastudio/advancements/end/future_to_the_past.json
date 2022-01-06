@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg",
+			"nbt": "{Enchantments:[{id:\"mending\"}]}"
+		},
+		"title": {
+			"translate": "Future to The Past"
+		},
+		"description": {
+			"translate": "Fall into the Void while holding a Dragon Egg. Good luck with getting out alive..."
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/dragon_egg",
+	"criteria": {
+		"fall_with_egg_main": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:dragon_egg"
+							]
+						}
+					}
+				},
+				"location": {
+					"position": {
+						"y": {
+							"max": -16
+						}
+					},
+					"dimension": "minecraft:the_end"
+				}
+			}
+		},
+		"fall_with_egg_offhand": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": [
+								"minecraft:dragon_egg"
+							]
+						}
+					}
+				},
+				"location": {
+					"position": {
+						"y": {
+							"max": -16
+						}
+					},
+					"dimension": "minecraft:the_end"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"fall_with_egg_main",
+			"fall_with_egg_offhand"
+		]
+	]
+}
