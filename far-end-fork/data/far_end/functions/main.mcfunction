@@ -9,3 +9,4 @@ function far_end:structures/check
 # Moved from far_end:mobs/ender_dragon/main
 bossbar set fe:ender_dragon players
 execute as @e[type=ender_dragon] at @s run function far_end:mobs/ender_dragon/bossbar_visibility
+bossbar set fe:ender_dragon visible true
