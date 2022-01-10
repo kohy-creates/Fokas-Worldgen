@@ -23,9 +23,9 @@
 										0
 									],
 									"blocks": [
-										"minecraft:grass_block",
+										"minecraft:warped_nylium",
 										"minecraft:snow_block",
-										"minecraft:blackstone"
+										"minecraft:end_stone"
 									]
 								},
 								{
@@ -36,9 +36,9 @@
 										1
 									],
 									"blocks": [
-										"minecraft:grass_block",
+										"minecraft:warped_nylium",
 										"minecraft:snow_block",
-										"minecraft:blackstone"
+										"minecraft:end_stone"
 									]
 								},
 								{
@@ -49,9 +49,9 @@
 										0
 									],
 									"blocks": [
-										"minecraft:grass_block",
+										"minecraft:warped_nylium",
 										"minecraft:snow_block",
-										"minecraft:blackstone"
+										"minecraft:end_stone"
 									]
 								},
 								{
@@ -62,9 +62,9 @@
 										-1
 									],
 									"blocks": [
-										"minecraft:grass_block",
+										"minecraft:warped_nylium",
 										"minecraft:snow_block",
-										"minecraft:blackstone"
+										"minecraft:end_stone"
 									]
 								},
 								{
@@ -122,9 +122,9 @@
 							0
 						],
 						"blocks": [
-							"minecraft:grass_block",
+							"minecraft:warped_nylium",
 							"minecraft:snow_block",
-							"minecraft:blackstone"
+							"minecraft:end_stone"
 						]
 					},
 					{
@@ -145,8 +145,8 @@
 									0
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -158,8 +158,8 @@
 									2
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -171,8 +171,8 @@
 									0
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -184,8 +184,8 @@
 									-2
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -197,8 +197,8 @@
 									1
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -210,8 +210,8 @@
 									1
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -223,8 +223,8 @@
 									-1
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							},
@@ -236,8 +236,8 @@
 									-1
 								],
 								"blocks": [
+									"minecraft:warped_nylium",
 									"minecraft:snow_block",
-									"minecraft:end_stone",
 									"minecraft:end_stone"
 								]
 							}

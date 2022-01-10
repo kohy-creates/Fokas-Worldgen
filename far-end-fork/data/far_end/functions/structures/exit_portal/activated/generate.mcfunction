@@ -4,7 +4,7 @@ playsound minecraft:block.beacon.activate ambient @a ~ ~ ~ 2 1.25
 playsound minecraft:entity.ender_dragon.growl ambient @a ~ ~ ~ 0.05 0.9
 
 # Ladders
-fill -17 119 0 -17 0 0 ladder[facing=west] replace
-fill 0 119 17 0 0 17 ladder[facing=south] replace
-fill 17 119 0 17 0 0 ladder[facing=east] replace
-fill 0 119 -17 0 0 -17 ladder[facing=north] replace
+fill -17 89 0 -17 0 0 ladder[facing=west] replace
+fill 0 89 17 0 0 17 ladder[facing=south] replace
+fill 17 89 0 17 0 0 ladder[facing=east] replace
+fill 0 89 -17 0 0 -17 ladder[facing=north] replace

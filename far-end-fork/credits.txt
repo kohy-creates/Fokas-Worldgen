@@ -15,7 +15,8 @@ FUNCTIONS:
 		Base pack, every function in 'far_end' namespace is 99% made by them. 
 		I only did small alterations to apply small tweaks and changes.
 
-
+	Cloud Wolf - https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g
+		Code in 'rng' namespace
 
 
 WORLDGEN:

@@ -15,6 +15,16 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
+							"tag": "{fokastudio.treasure_head:1b,display:{Lore:['{\"text\":\"[Far End\\'s Original Creator]\",\"color\":\"#FFC32F\"}','{\"text\":\"404\",\"italic\":false,\"bold\":true,\"color\":\"red\"}']},SkullOwner:\"Hex_gone\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
 							"tag": "{fokastudio.treasure_head:1b,display:{Lore:['{\"text\":\"I wonder what hand sanitizer tastes like?\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]

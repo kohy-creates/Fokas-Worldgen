@@ -2,7 +2,7 @@
 	"type": "minecraft:the_end",
 	"generator": {
 		"type": "minecraft:noise",
-		"seed": 422967183,
+		"seed": -1249309622,
 		"settings": "far_end:far_end",
 		"biome_source": {
 			"type": "minecraft:multi_noise",
@@ -199,18 +199,18 @@
 						"offset": 0.175
 					}
 				},
-//				{
-//					"biome": "fokastudio:prismarine_forest",
-//					"parameters": {
-//						"temperature": 0.3,
-//						"humidity": -0.5,
-//						"continentalness": 0.1,
-//						"erosion": 0,
-//						"weirdness": 0,
-//						"depth": 0,
-//						"offset": 0.1
-//					}
-//				},
+				{
+					"biome": "fokastudio:prismarine_forest",
+					"parameters": {
+						"temperature": 0.3,
+						"humidity": -0.5,
+						"continentalness": 0.1,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.1
+					}
+				},
 				{
 					"biome": "fokastudio:frosted_hills",
 					"parameters": {
@@ -222,19 +222,19 @@
 						"depth": 0,
 						"offset": 0.175
 					}
-				}//,
-//				{
-//					"biome": "fokastudio:snowy_warped_forest",
-//					"parameters": {
-//						"temperature": -0.2,
-//						"humidity": -0.6,
-//						"continentalness": 0.3,
-//						"erosion": 0,
-//						"weirdness": 0,
-//						"depth": 0,
-//						"offset": 0.175
-//					}
-//				}
+				},
+				{
+					"biome": "fokastudio:snowy_warped_forest",
+					"parameters": {
+						"temperature": -0.2,
+						"humidity": -0.6,
+						"continentalness": 0.3,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				}
 			]
 		}
 	}

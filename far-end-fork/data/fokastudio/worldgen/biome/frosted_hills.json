@@ -1,7 +1,7 @@
 {
 	"temperature": -0.5,
 	"downfall": 0.4,
-	"precipitation": "snow",
+	"precipitation": "none",
 	"temperature_modifier": "frozen",
 	"category": "icy",
 	"creature_spawn_probability": 0,
@@ -27,7 +27,7 @@
 			"options": {
 				"type": "snowflake"
 			},
-			"probability": 0.01
+			"probability": 0.005
 		}
 	},
 	"spawners": {
@@ -79,7 +79,8 @@
 		[
 			"fokastudio:global/snowy/first_layer",
 			"fokastudio:global/snowy/second_layer",
-			"fokastudio:global/snowy/third_layer"
+			"fokastudio:global/snowy/third_layer",
+			"fokastudio:global/snowy/freeze_layers"
 		],
 		[
 			"fokastudio:frosted_hills/ore_blue_ice",

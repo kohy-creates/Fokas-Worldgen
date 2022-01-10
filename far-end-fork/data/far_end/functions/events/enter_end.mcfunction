@@ -1,4 +1,4 @@
-tp @s 12 120 0
+tp @s 12 90 0
 execute at @s run fill ~ ~ ~ ~ ~1 ~ air
 execute at @s run playsound block.portal.travel ambient @s ~ ~ ~ 1 2
 

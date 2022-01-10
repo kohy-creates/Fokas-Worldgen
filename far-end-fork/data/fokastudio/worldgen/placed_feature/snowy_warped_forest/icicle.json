@@ -1,5 +1,5 @@
 {
-	"feature": "fokastudio:global/stalactite_1",
+	"feature": "fokastudio:snowy_warped_forest/icicle",
 	"placement": [
 		{
 			"type": "minecraft:count",
@@ -8,19 +8,19 @@
 				"distribution": [
 					{
 						"weight": 100,
-						"data": 7
+						"data": 30
 					},
 					{
 						"weight": 50,
-						"data": 14
+						"data": 50
 					},
 					{
 						"weight": 25,
-						"data": 28
+						"data": 70
 					},
 					{
 						"weight": 1,
-						"data": 40
+						"data": 90
 					}
 				]
 			}
@@ -30,9 +30,9 @@
 		},
 		{
 			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 5,
-			"noise_factor": 55,
-			"noise_offset": 0
+			"noise_to_count_ratio": 25,
+			"noise_factor": 50,
+			"noise_offset": 0.1
 		},
 		{
 			"type": "minecraft:height_range",

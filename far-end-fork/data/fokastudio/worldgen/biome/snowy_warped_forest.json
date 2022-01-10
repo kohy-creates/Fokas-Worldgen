@@ -1,7 +1,7 @@
 {
 	"temperature": -0.5,
 	"downfall": 0.4,
-	"precipitation": "snow",
+	"precipitation": "none",
 	"temperature_modifier": "frozen",
 	"category": "icy",
 	"creature_spawn_probability": 0,
@@ -30,34 +30,7 @@
 			"probability": 0.05
 		}
 	},
-	"spawners": {
-		"monster": [
-			{
-				"type": "minecraft:stray",
-				"weight": 2,
-				"minCount": 2,
-				"maxCount": 7
-			},
-			{
-				"type": "minecraft:hoglin",
-				"weight": 2,
-				"minCount": 2,
-				"maxCount": 7
-			},
-			{
-				"type": "minecraft:phantom",
-				"weight": 2,
-				"minCount": 2,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:enderman",
-				"weight": 3,
-				"minCount": 3,
-				"maxCount": 7
-			}
-		]
-	},
+	"spawners": {},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
@@ -66,33 +39,33 @@
 	},
 	"features": [
 		[
-			//"far_end:warped_snow_lake"
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:snowy_warped_forest/icicle"
+		],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:snowy_warped_forest/frozen_lava_lake",
+			"fokastudio:snowy_warped_forest/fungus"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:global/snowy/first_layer",
+			"fokastudio:global/snowy/second_layer",
+			"fokastudio:global/snowy/third_layer",
+			"fokastudio:global/snowy/freeze_layers"
 		],
 		[
-			"minecraft:ore_quartz_nether",
-			"minecraft:freeze_top_layer",
-			"minecraft:spring_lava",
-			"minecraft:spring_lava_frozen",
-			"minecraft:lake_lava_surface",
-			"minecraft:nether_sprouts",
-			"minecraft:brown_mushroom_nether",
-			"minecraft:red_mushroom_nether",
-			"minecraft:ore_gold_nether",
-			"minecraft:weeping_vines",
-			"minecraft:twisting_vines",
-			"minecraft:warped_fungi",
-			"minecraft:warped_forest_vegetation"//,
-			//"far_end:warped_pile",
-			//"far_end:warped_test"
-		],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[]
+			"fokastudio:frosted_hills/ore_blue_ice",
+			"fokastudio:frosted_hills/ore_snow",
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
+		]
 	]
 }

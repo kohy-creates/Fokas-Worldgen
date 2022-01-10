@@ -67,7 +67,7 @@
 									"name": "",
 									"amount": {
 										"min": 0,
-										"max": 0.07
+										"max": 0.03
 									},
 									"operation": "addition",
 									"slot": "chest"

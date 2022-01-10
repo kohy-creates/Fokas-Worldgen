@@ -12,6 +12,7 @@
 		"grass_color": 3892594,
 		"foliage_color": 11392511,
 		"grass_color_modifier": "none",
+		"ambient_sound": "ambient.underwater.loop",
 		"mood_sound": {
 			"sound": "ambient.underwater.loop.additions.rare",
 			"tick_delay": 400,
@@ -24,9 +25,9 @@
 		},
 		"particle": {
 			"options": {
-				"type": "dripping_obsidian_tear"
+				"type": "dripping_dripstone_water"
 			},
-			"probability": 0.005
+			"probability": 0.001
 		}
 	},
 	"spawners": {
@@ -67,31 +68,28 @@
 	},
 	"features": [
 		[
-			//"far_end:prismarine_forest_lake"
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"fokastudio:prismarine_forest/prismarine_bottom"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"fokastudio:prismarine_forest/trees",
+			"fokastudio:prismarine_forest/vegetation",
+			"fokastudio:prismarine_forest/grass",
+			"fokastudio:prismarine_forest/light"
 		],
 		[
-			"minecraft:dark_forest_vegetation",
-			"minecraft:chorus_plant"//,
-			//"far_end:end_stone_tree"
-		],
-		[
-			"minecraft:patch_grass_forest",
-			"minecraft:patch_tall_grass",
-			"minecraft:patch_crimson_roots",
-			"minecraft:patch_waterlily",
-			"minecraft:seagrass_normal"//,
-			//"far_end:flower",
-			//"far_end:wood_pile",
-			//"far_end:end_diamond",
-			//"far_end:amethyst"
-    ],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[]
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring",
+			"fokastudio:global/strongholds"
+		]
 	]
 }

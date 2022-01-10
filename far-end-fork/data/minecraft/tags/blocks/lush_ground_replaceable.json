@@ -1,10 +1,10 @@
 {
-    "replace": false,
-    "values": [
-      "#minecraft:moss_replaceable",
-      "minecraft:clay",
-      "minecraft:gravel",
-      "minecraft:sand",
-      "minecraft:end_stone"
-    ]
-  }
+		"replace": false,
+		"values": [
+			"#minecraft:moss_replaceable",
+			"minecraft:clay",
+			"minecraft:gravel",
+			"minecraft:sand",
+			"minecraft:end_stone"
+		]
+}
