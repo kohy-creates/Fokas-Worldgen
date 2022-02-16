@@ -1,0 +1,37 @@
+=================================================
+	__  ____     ___  ___    ____  ______  _____
+   /  ]|    \   /  _]|   \  |    ||      |/ ___/
+  /  / |  D  ) /  [_ |    \  |  | |      (   \_ 
+ /  /  |    / |    _]|  D  | |  | |_|  |_|\__  |
+/   \_ |    \ |   [_ |     | |  |   |  |  /  \ |
+\     ||  .  \|     ||     | |  |   |  |  \    |
+ \____||__|\_||_____||_____||____|  |__|   \___|
+												
+=================================================
+
+WORLDGEN:
+
+	Misode - https://github.com/misode
+		If you have seen FokaStudio's Ender Expansion, you know that this would land here as well...
+        (I am talking about https://misode.github.io/)
+
+	Starmute - https://www.planetminecraft.com/member/starmute/
+		Crystals in Underground Hallow were originally made by Starmute,
+        I just modified them slightly
+        (from Terralith's Crystal Caves)
+
+
+
+
+ADVANCEMENTS:
+
+	Misode - https://github.com/misode
+		You knew that this would be the case as well!
+	
+
+
+
+PREDICATES:
+
+	Misode - https://github.com/misode
+		If you have seen FokaStudio's Ender Expansion, you know that this would land here as well...

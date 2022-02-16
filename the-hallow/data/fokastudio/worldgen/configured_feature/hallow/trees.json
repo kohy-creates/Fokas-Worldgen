@@ -1,0 +1,263 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/red/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/red/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/red/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/orange/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/orange/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/orange/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/yellow/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/yellow/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/yellow/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/lime/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/lime/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/lime/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/green/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/green/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/green/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/light_blue/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/light_blue/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/light_blue/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/cyan/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/cyan/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/cyan/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/blue/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/blue/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/blue/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/purple/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/purple/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/purple/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/magenta/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/magenta/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/magenta/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/pink/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/pink/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/pink/jungle",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/white/regular",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/white/pine",
+					"placement": []
+				}
+			},
+            {
+				"chance": 0.1,
+				"feature": {
+					"feature": "fokastudio:hallow/trees/white/jungle",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:hallow/trees/oak",
+			"placement": []
+		}
+	}
+}

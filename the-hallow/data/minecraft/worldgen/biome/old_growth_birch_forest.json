@@ -1,0 +1,238 @@
+{
+	"temperature": 0.6,
+	"downfall": 0.6,
+	"precipitation": "rain",
+	"category": "forest",
+	"effects": {
+		"sky_color": 8049663,
+		"fog_color": 12638463,
+		"water_color": 16332781,
+		"water_fog_color": 12990969,
+		"grass_color": 5161443,
+		"foliage_color": 5219299,
+		"mood_sound": {
+			"sound": "block.amethyst_block.chime",
+			"tick_delay": 900,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.warped_forest.additions",
+			"tick_chance": 0.001
+		},
+		"music": {
+			"sound": "minecraft:music.creative",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "end_rod"
+			},
+			"probability": 0.00083
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:spider",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:vex",
+				"weight": 60,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:zombie",
+				"weight": 43,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:husk",
+				"weight": 43,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:zombie_villager",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:stray",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:creeper",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:slime",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:witch",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:sheep",
+				"weight": 20,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:pig",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:chicken",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:cow",
+				"weight": 8,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:horse",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"axolotls": [],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 30,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+		[],
+		[
+			"minecraft:lake_lava_underground"
+		],
+		[
+			"minecraft:amethyst_geode"
+		],
+		[
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
+		],
+		[],
+		[],
+		[
+			"minecraft:ore_dirt",
+			"fokastudio:hallow/ores/gravel_replacement",
+			"minecraft:ore_granite_upper",
+			"minecraft:ore_granite_lower",
+			"minecraft:ore_diorite_upper",
+			"minecraft:ore_diorite_lower",
+			"minecraft:ore_andesite_upper",
+			"minecraft:ore_andesite_lower",
+			"minecraft:ore_tuff",
+			"minecraft:ore_coal_upper",
+			"minecraft:ore_coal_lower",
+			"minecraft:ore_iron_upper",
+			"minecraft:ore_iron_middle",
+			"minecraft:ore_iron_small",
+			"minecraft:ore_gold",
+			"minecraft:ore_gold_lower",
+			"minecraft:ore_redstone",
+			"minecraft:ore_redstone_lower",
+			"minecraft:ore_diamond",
+			"minecraft:ore_diamond_large",
+			"minecraft:ore_diamond_buried",
+			"minecraft:ore_lapis",
+			"minecraft:ore_lapis_buried",
+			"minecraft:ore_copper",
+			"minecraft:underwater_magma",
+			"fokastudio:hallow/disks/clay_replacement",
+			"fokastudio:hallow/disks/gravel_replacement",
+			"fokastudio:hallow/disks/sand_replacement"
+		],
+		[],
+		[
+			"minecraft:spring_water",
+			"fokastudio:hallow/underground/stone_to_diorite",
+			"fokastudio:hallow/underground/crystals/crystal_down",
+			"fokastudio:hallow/underground/crystals/crystal_east",
+			"fokastudio:hallow/underground/crystals/crystal_north",
+			"fokastudio:hallow/underground/crystals/crystal_south",
+			"fokastudio:hallow/underground/crystals/crystal_up",
+			"fokastudio:hallow/underground/crystals/crystal_west"
+		],
+		[	
+			"fokastudio:hallow/trees",
+			"minecraft:glow_lichen",
+			"fokastudio:hallow/flowers",
+			"minecraft:patch_grass_forest",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal",
+			"minecraft:patch_sugar_cane",
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_melon"
+		],
+		[
+			"minecraft:freeze_top_layer",
+			"fokastudio:hallow/hallowing/desert",
+			"fokastudio:hallow/hallowing/snow"
+		]
+	]
+}

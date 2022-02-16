@@ -1,0 +1,28 @@
+
+{
+	"type": "minecraft:disk",
+	"config": {
+		"state": {
+			"Name": "minecraft:light_gray_concrete_powder"
+		},
+		"radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 2,
+				"max_inclusive": 5
+			}
+		},
+		"half_height": 2,
+		"targets": [
+			{
+				"Name": "minecraft:dirt"
+			},
+			{
+				"Name": "minecraft:grass_block",
+				"Properties": {
+					"snowy": "false"
+				}
+			}
+		]
+	}
+}

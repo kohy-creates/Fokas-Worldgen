@@ -1,0 +1,12 @@
+{
+	"feature": "fokastudio:hallow/underground/stone_to_diorite",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 256
+		},
+		{
+			"type": "biome"
+		}
+	]
+}
