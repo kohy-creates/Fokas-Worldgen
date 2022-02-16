@@ -13,7 +13,7 @@
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
-      "tick_delay": 6000,
+      "tick_delay": 900,
       "block_search_extent": 8,
       "offset": 2
     },
@@ -117,17 +117,12 @@
     ],
     [],
     [
-      "fokastudio:nether_geode"
-    ],
-    [
-      "fokastudio:basalt_deltas/addition_6",
-      "fokastudio:basalt_deltas/addition_5",
-      "fokastudio:basalt_deltas/addition_4",
-      "fokastudio:basalt_deltas/addition_3",
-      "fokastudio:basalt_deltas/addition_2",
-      "fokastudio:basalt_deltas/addition_1",
+      "fokastudio:nether_geode",
+      "fokastudio:basalt_deltas/additions",
       "fokastudio:basalt_deltas/tree",
-      "fokastudio:basalt_deltas/fortress"
-    ]
+      "fokastudio:basalt_deltas/fortress",
+      "fokastudio:structures/nether/dungeons"
+    ],
+    []
   ]
 }

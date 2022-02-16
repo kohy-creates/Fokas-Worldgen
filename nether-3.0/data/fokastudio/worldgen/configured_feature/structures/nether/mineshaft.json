@@ -1,0 +1,164 @@
+{
+	"type": "minecraft:fossil",
+	"config": {
+		"max_empty_corners_allowed": 0,
+		"fossil_structures": [
+			"fokastudio:nether/dungeons/large_mine"
+		],
+		"overlay_structures": [
+			"fokastudio:nether/dungeons/large_mine"
+		],
+		"fossil_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.03
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:nether_quartz_ore"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.02
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:nether_gold_ore"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.05
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:blackstone"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.01
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:gilded_blackstone"
+							}
+						}
+					]
+				}
+			]
+		},
+		"overlay_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.03
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:nether_quartz_ore"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.02
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:nether_gold_ore"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.05
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:blackstone"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:netherrack",
+								"probability": 0.01
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:gilded_blackstone"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

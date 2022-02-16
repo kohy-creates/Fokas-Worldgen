@@ -1,84 +1,323 @@
 {
-  "type": "minecraft:random_patch",
-  "config": {
-    "tries": 150,
-    "xz_spread": 11,
-    "y_spread": 11,
-    "feature": {
-      "feature": {
-        "type": "minecraft:block_column",
-        "config": {
-          "direction": "up",
-          "allowed_placement": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air"
-            ]
-          },
-          "prioritize_tip": false,
-          "layers": [
-            {
-              "height": {
-                "type": "minecraft:uniform",
-                "value": {
-                  "min_inclusive": 2,
-                  "max_inclusive": 5
-                }
-              },
-              "provider": {
-                "type": "minecraft:weighted_state_provider",
-                "entries": [
-                  {
-                    "weight": 1,
-                    "data": {
-                      "Name": "minecraft:spruce_log",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    }
-                  },
-                  {
-                    "weight": 2,
-                    "data": {
-                      "Name": "minecraft:dark_oak_log",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:all_of",
-            "predicates": [
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air"
-                ]
-              },
-              {
-                "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
-                "blocks": [
-                  "minecraft:soul_sand"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    }
-  }
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.6,
+				"feature": {
+					"feature": {
+						"type": "minecraft:simple_block",
+						"config": {
+							"to_place": {
+								"type": "minecraft:weighted_state_provider",
+								"entries": [
+									{
+										"weight": 40,
+										"data": {
+											"Name": "minecraft:wither_rose"
+										}
+									},
+									{
+										"weight": 40,
+										"data": {
+											"Name": "minecraft:dead_bush"
+										}
+									},
+									{
+										"weight": 100,
+										"data": {
+											"Name": "minecraft:glow_lichen",
+											"Properties": {
+												"down": "true",
+												"east": "false",
+												"north": "false",
+												"south": "false",
+												"up": "false",
+												"waterlogged": "false",
+												"west": "false"
+											}
+										}
+									},
+									{
+										"weight": 4,
+										"data": {
+											"Name": "minecraft:dead_brain_coral",
+											"Properties": {
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 4,
+										"data": {
+											"Name": "minecraft:dead_horn_coral",
+											"Properties": {
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 4,
+										"data": {
+											"Name": "minecraft:dead_fire_coral",
+											"Properties": {
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 4,
+										"data": {
+											"Name": "minecraft:dead_tube_coral",
+											"Properties": {
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 4,
+										"data": {
+											"Name": "minecraft:dead_bubble_coral",
+											"Properties": {
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 9,
+										"data": {
+											"Name": "minecraft:sea_pickle",
+											"Properties": {
+												"pickles": "1",
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 6,
+										"data": {
+											"Name": "minecraft:sea_pickle",
+											"Properties": {
+												"pickles": "2",
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 3,
+										"data": {
+											"Name": "minecraft:sea_pickle",
+											"Properties": {
+												"pickles": "3",
+												"waterlogged": "false"
+											}
+										}
+									},
+									{
+										"weight": 1,
+										"data": {
+											"Name": "minecraft:sea_pickle",
+											"Properties": {
+												"pickles": "4",
+												"waterlogged": "false"
+											}
+										}
+									}
+								]
+							}
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": {
+						"type": "minecraft:block_column",
+						"config": {
+							"direction": "up",
+							"allowed_placement": {
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							"prioritize_tip": false,
+							"layers": [
+								{
+									"height": {
+										"type": "minecraft:uniform",
+										"value": {
+											"min_inclusive": 3,
+											"max_inclusive": 6
+										}
+									},
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 11,
+												"data": {
+													"Name": "minecraft:spruce_log",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											},
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:dark_oak_log",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											}
+										]
+									}
+								},
+								{
+									"height": {
+										"type": "minecraft:uniform",
+										"value": {
+											"min_inclusive": 0,
+											"max_inclusive": 1
+										}
+									},
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 11,
+												"data": {
+													"Name": "minecraft:spruce_wood",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											},
+											{
+												"weight": 3,
+												"data": {
+													"Name": "minecraft:dark_oak_wood",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"placement": [
+						{
+							"type": "minecraft:noise_based_count",
+							"noise_to_count_ratio": 15,
+							"noise_factor": 10,
+							"noise_offset": 0.1
+						}
+					]
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": {
+						"type": "minecraft:block_column",
+						"config": {
+							"direction": "up",
+							"allowed_placement": {
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:air"
+								]
+							},
+							"prioritize_tip": false,
+							"layers": [
+								{
+									"height": {
+										"type": "minecraft:uniform",
+										"value": {
+											"min_inclusive": 3,
+											"max_inclusive": 6
+										}
+									},
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:warped_stem",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											},
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:crimson_stem",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											}
+										]
+									}
+								},
+								{
+									"height": {
+										"type": "minecraft:uniform",
+										"value": {
+											"min_inclusive": 0,
+											"max_inclusive": 1
+										}
+									},
+									"provider": {
+										"type": "minecraft:weighted_state_provider",
+										"entries": [
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:warped_hyphae",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											},
+											{
+												"weight": 1,
+												"data": {
+													"Name": "minecraft:crimson_hyphae",
+													"Properties": {
+														"axis": "y"
+													}
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					"placement": [
+						{
+							"type": "minecraft:noise_based_count",
+							"noise_to_count_ratio": 15,
+							"noise_factor": 10,
+							"noise_offset": 0.1
+						}
+					]
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:nether_wastes/dead_tree",
+			"placement": []
+		}
+	}
 }

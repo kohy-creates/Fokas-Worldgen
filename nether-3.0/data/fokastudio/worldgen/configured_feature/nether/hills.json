@@ -7,7 +7,13 @@
 		"extra_bottom_block_chance": 0,
 		"extra_edge_column_chance": 0.5,
 		"vegetation_chance": 1,
-		"xz_radius": 3,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 3,
+				"max_inclusive": 6
+			}
+		},
 		"replaceable": "fokastudio:netherrack",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",

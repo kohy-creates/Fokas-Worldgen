@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.25,
+				"feature": {
+					"feature": "fokastudio:soul_sand_valley/tree",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.15,
+				"feature": {
+					"feature": "fokastudio:soul_sand_valley/fire",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.25,
+				"feature": {
+					"feature": "fokastudio:soul_sand_valley/twisting_vines",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.16,
+				"feature": {
+					"feature": "fokastudio:soul_sand_valley/columns",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.2,
+				"feature": {
+					"feature": "fokastudio:soul_sand_valley/wart",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:soul_sand_valley/vegetation",
+			"placement": []
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherrack"
+      },
+      "title": {
+        "translate": "Mushroom Wasteland"
+      },
+      "description": {
+        "translate": "Enter Nether Wastes"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/explore_nether",
+    "criteria": {
+      "minecraft:nether_wastes": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:nether_wastes"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:nether_wastes"
+      ]
+    ],
+    "rewards": {}
+  }
+  

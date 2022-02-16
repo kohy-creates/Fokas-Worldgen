@@ -1,0 +1,132 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3847130}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3949738}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:1481884}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:1449884}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:2011637}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6869971}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:9687505}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:16777215}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:8708863}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:61183}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:12287}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:9421784}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6387853}}",
+		"conditions": [
+			{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}
+		]
+	}
+]

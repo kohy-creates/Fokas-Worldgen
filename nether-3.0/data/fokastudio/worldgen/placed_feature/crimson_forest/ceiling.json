@@ -4,13 +4,14 @@
     
     {
 			"type": "minecraft:biome"
-		},{
+		},
+    {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 30,
-          "max_inclusive": 90
+          "min_inclusive": 10,
+          "max_inclusive": 35
         }
       }
     },
@@ -29,7 +30,7 @@
 		{
 			"type": "minecraft:environment_scan",
 			"direction_of_search": "up",
-			"max_steps": 32,
+			"max_steps": 24,
 			"target_condition": {
 				"type": "minecraft:solid"
 			},
@@ -39,6 +40,9 @@
 					"minecraft:air"
 				]
 			}
-		}
+		},
+    {
+      "type":"in_square"
+    }
   ]
 }

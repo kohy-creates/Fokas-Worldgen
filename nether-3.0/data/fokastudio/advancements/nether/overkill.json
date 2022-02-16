@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_sword"
+      },
+      "title": {
+        "translate": "Overkill"
+      },
+      "description": {
+        "translate": "Deal 9 hearts of damage in one attack"
+      },
+      "frame": "challenge"
+    },
+    "parent": "minecraft:nether/obtain_ancient_debris",
+    "criteria": {
+      "deal_damage": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "dealt": {
+              "min": 18,
+              "max": 10000
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "deal_damage"
+      ]
+    ],
+    "rewards": {
+      "experience": 75
+    }
+  }
+  

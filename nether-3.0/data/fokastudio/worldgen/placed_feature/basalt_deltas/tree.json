@@ -6,7 +6,7 @@
 		},
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 8
+      "count": 4
     }
   ]
 }

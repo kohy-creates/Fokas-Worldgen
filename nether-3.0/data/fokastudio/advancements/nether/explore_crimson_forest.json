@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crimson_nylium"
+      },
+      "title": {
+        "translate": "So... Hot..."
+      },
+      "description": {
+        "translate": "Enter Crimson Forest"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/explore_nether",
+    "criteria": {
+      "minecraft:crimson_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:crimson_forest"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:crimson_forest"
+      ]
+    ],
+    "rewards": {}
+  }
+  

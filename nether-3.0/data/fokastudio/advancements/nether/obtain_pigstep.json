@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:music_disc_pigstep"
+      },
+      "title": {
+        "translate": "Pigs Step!"
+      },
+      "description": {
+        "translate": "Obtain a Pigstep Music Disc from a bastion"
+      },
+      "frame": "goal"
+    },
+    "parent": "minecraft:nether/loot_bastion",
+    "criteria": {
+      "get_pigstep": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "location": {
+              "feature": "bastion_remnant"
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:music_disc_pigstep"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "get_pigstep"
+      ]
+    ]
+  }
+  

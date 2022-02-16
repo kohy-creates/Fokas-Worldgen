@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:fossil",
+	"config": {
+		"max_empty_corners_allowed": 7,
+		"fossil_structures": [
+			"fokastudio:nether/dungeons/small_magma"
+		],
+		"overlay_structures": [
+			"fokastudio:nether/dungeons/small_magma"
+		],
+		"fossil_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:nether_bricks",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:cracked_nether_bricks"
+							}
+						}
+					]
+				}
+			]
+		},
+		"overlay_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:nether_bricks",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:cracked_nether_bricks"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

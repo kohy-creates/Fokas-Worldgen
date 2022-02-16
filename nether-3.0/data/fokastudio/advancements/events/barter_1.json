@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "piglin_barter_1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:piglin_loved"
+        },
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piglin_barter_1"
+    ]
+  ],
+  "rewards": {
+    "function": "fokastudio:nether/mobs/piglins/bartering/barter_interact"
+  }
+}

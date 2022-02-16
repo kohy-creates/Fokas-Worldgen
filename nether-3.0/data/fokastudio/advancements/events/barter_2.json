@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "piglin_barter_2": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "tag": "minecraft:piglin_loved"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piglin_barter_2"
+    ]
+  ],
+  "rewards": {
+    "function": "fokastudio:nether/mobs/piglins/bartering/barter_pickup"
+  }
+}

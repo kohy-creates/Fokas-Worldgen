@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:warped_nylium"
+      },
+      "title": {
+        "translate": "So... Cold..."
+      },
+      "description": {
+        "translate": "Enter Warped Forest, the home of every End mob in the Nether"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/explore_nether",
+    "criteria": {
+      "minecraft:warped_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:warped_forest"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:warped_forest"
+      ]
+    ],
+    "rewards": {}
+  }
+  

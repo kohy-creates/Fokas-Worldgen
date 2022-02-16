@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.3333,
+				"feature": {
+					"feature": "fokastudio:warped_forest/tree_1",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.4444,
+				"feature": {
+					"feature": "fokastudio:warped_forest/tree_2",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:warped_forest/bush",
+			"placement": []
+		}
+	}
+}

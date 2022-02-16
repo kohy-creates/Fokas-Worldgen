@@ -1,0 +1,57 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_chestplate",
+        "nbt": "{Damage:0}"
+      },
+      "title": {
+        "translate": "Cover Me in Money!"
+      },
+      "description": {
+        "translate": "Get a full set of Golden Armor"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/distract_piglin",
+    "criteria": {
+      "golden_armor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "golden_armor"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

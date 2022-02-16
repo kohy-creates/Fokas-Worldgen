@@ -1,0 +1,259 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 6,
+          "max": 9
+        },
+        "bonus_rolls": {
+          "min": 0,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:soul_sand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 5
+                  },
+                  "max": 17
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:soul_soil",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 10
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0,
+                  "max": 4
+                },
+                "limit": 0
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.fokastudio.burnt_bone",
+                  "color": "yellow",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:44000,FokaStudioItemType:\"burnt_bone\"}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 7
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": {
+                    "min": 0,
+                    "max": 1
+                  },
+                  "max": {
+                    "min": 7,
+                    "max": 11
+                  }
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 100
+                  },
+                  "max": {
+                    "type": "minecraft:uniform",
+                    "min": 500,
+                    "max": 1400
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:44000,FokaStudioItemType:\"witherblade\"}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "item.fokastudio.witherblade.lore.line1",
+                    "color": "#7C7C7C",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "translate": "item.fokastudio.witherblade.lore.line2",
+                    "color": "#7C7C7C",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "translate": "item.fokastudio.witherblade.lore.line3",
+                    "color": "#7C7C7C",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1,
+                "add": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Witherblade",
+                  "color": "#444444",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "name": "",
+                    "amount": {
+                      "min": {
+                        "min": 7,
+                        "max": 9
+                      },
+                      "max": {
+                        "min": 14,
+                        "max": 17
+                      }
+                    },
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "minecraft:generic.max_health",
+                    "name": "",
+                    "amount": {
+                      "min": {
+                        "min": {
+                          "type": "minecraft:uniform",
+                          "min": 2,
+                          "max": 3.86
+                        },
+                        "max": 1
+                      },
+                      "max": {
+                        "type": "minecraft:uniform",
+                        "min": 5.8,
+                        "max": 8
+                      }
+                    },
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "minecraft:generic.attack_speed",
+                    "name": "Attack Speed",
+                    "amount": {
+                      "min": -3.25,
+                      "max": {
+                        "type": "minecraft:uniform",
+                        "min": -3,
+                        "max": -2.5
+                      }
+                    },
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

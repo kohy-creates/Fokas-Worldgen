@@ -1,0 +1,12 @@
+{
+	"feature": "fokastudio:soul_sand_valley/decorate",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 1
+		}
+	]
+}

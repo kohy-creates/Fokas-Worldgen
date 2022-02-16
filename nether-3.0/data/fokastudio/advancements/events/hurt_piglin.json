@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "hurt_piglin": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "hurt_piglin"
+      ]
+    ],
+    "rewards": {
+      "function": "fokastudio:nether/mobs/piglins/bartering/hurt"
+    }
+  }
+  

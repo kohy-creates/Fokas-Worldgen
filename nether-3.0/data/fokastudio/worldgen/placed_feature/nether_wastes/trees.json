@@ -1,14 +1,10 @@
 {
-  "feature": "fokastudio:nether_wastes/trees",
-  "placement": [
-    {
-      "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:count_on_every_layer",
-      "count": 1
-    },
-    {
+	"feature": "fokastudio:nether_wastes/trees",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
 			"type": "minecraft:block_predicate_filter",
 			"predicate": {
 				"type": "minecraft:matching_blocks",
@@ -18,15 +14,33 @@
 					0
 				],
 				"blocks": [
-					
-          "mycelium",
-          "netherrack"
+					"minecraft:mycelium",
+					"minecraft:netherrack"
 				]
 			}
 		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
     {
-      "type": "rarity_filter",
-      "chance": 4
+      "type":"in_square"
     }
-  ]
+	]
 }

@@ -13,7 +13,7 @@
 		"ambient_sound": "minecraft:ambient.crimson_forest.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.crimson_forest.mood",
-			"tick_delay": 6000,
+			"tick_delay": 900,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -83,14 +83,10 @@
 			"fokastudio:crimson_forest/ceiling"
 		],
 		[
-			"fokastudio:crimson_forest/delta_1",
-			"fokastudio:crimson_forest/delta_2",
-			"fokastudio:crimson_forest/delta_3"
+			"fokastudio:crimson_forest/deltas"
 		],
 		[
-			"fokastudio:crimson_forest/bush",
-			"fokastudio:crimson_forest/tree_1",
-			"fokastudio:crimson_forest/tree_2",
+			"fokastudio:crimson_forest/trees",
 			"minecraft:crimson_fungi"
 		],
 		[],
@@ -104,23 +100,22 @@
 			"minecraft:glowstone",
 			"minecraft:ore_magma",
 			"minecraft:spring_closed",
-			"minecraft:ore_gravel_nether",
+			"fokastudio:crimson_forest/ore_concrete_powder",
 			"minecraft:ore_blackstone",
 			"minecraft:ore_gold_nether",
 			"minecraft:ore_quartz_nether",
 			"minecraft:ore_ancient_debris_large",
 			"minecraft:ore_debris_small"
 		],
-		[],
 		[
 			"minecraft:spring_lava",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
 			"minecraft:weeping_vines",
-			"minecraft:crimson_forest_vegetation"
+			"minecraft:crimson_forest_vegetation",
+			"fokastudio:structures/nether/dungeons"
 		],
-		[
-			"fokastudio:crimson_forest/replace_blocks"
-		]
+		[],
+		[]
 	]
 }

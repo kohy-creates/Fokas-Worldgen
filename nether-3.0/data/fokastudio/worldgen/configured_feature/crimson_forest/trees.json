@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.3333,
+				"feature": {
+					"feature": "fokastudio:crimson_forest/tree_1",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.4444,
+				"feature": {
+					"feature": "fokastudio:crimson_forest/tree_2",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:crimson_forest/bush",
+			"placement": []
+		}
+	}
+}

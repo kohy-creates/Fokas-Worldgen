@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:soul_sand"
+      },
+      "title": {
+        "translate": "Animal Realm's Primates Gardens"
+      },
+      "description": {
+        "translate": "Discover deadly, yet beautiful Soul Sand Valley biome"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:nether/explore_nether",
+    "criteria": {
+      "minecraft:soul_sand_valley": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:soul_sand_valley"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft:soul_sand_valley"
+      ]
+    ],
+    "rewards": {}
+  }
+  

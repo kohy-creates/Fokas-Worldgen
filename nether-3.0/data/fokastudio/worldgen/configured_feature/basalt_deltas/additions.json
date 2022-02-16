@@ -1,0 +1,118 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 150,
+		"xz_spread": 11,
+		"y_spread": 11,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:polished_basalt",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:smooth_basalt",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:cobbled_deepslate",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:deepslate",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:cobblestone",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:polished_basalt",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:light_gray_concrete_powder",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:gray_concrete_powder",
+									"Properties": {
+										"axis": "y"
+									}
+								}
+							}
+						]
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"minecraft:polished_basalt",
+									"minecraft:basalt",
+									"cobblestone",
+									"deepslate",
+									"cobbled_deepslate",
+									"smooth_basalt"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

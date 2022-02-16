@@ -13,7 +13,7 @@
     "ambient_sound": "minecraft:ambient.nether_wastes.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
-      "tick_delay": 6000,
+      "tick_delay": 900,
       "block_search_extent": 8,
       "offset": 2
     },
@@ -109,9 +109,8 @@
     [],
     [
       "fokastudio:nether_wastes/mushrooms",
-      "fokastudio:nether_wastes/trees",
-      "fokastudio:nether_wastes/dead_tree"
-    ],
+      "fokastudio:nether_wastes/trees"
+      ],
     [
       "minecraft:ore_gravel_nether",
       "fokastudio:nether_wastes/decoration"
@@ -129,12 +128,11 @@
     [],
     [
       "minecraft:ore_quartz_nether",
-      "fokastudio:nether_geode"
-    ],
-    [
-      "fokastudio:nether_wastes/replace_basalt",
+      "fokastudio:nether_geode",
+      "fokastudio:nether_wastes/beaches_vegetation",
       "minecraft:patch_soul_fire",
-      "fokastudio:nether_wastes/beaches_vegetation"
-    ]
+      "fokastudio:structures/nether/dungeons"
+    ],
+    []
   ]
 }

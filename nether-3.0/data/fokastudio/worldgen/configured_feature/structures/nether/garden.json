@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:fossil",
+	"config": {
+		"max_empty_corners_allowed": 2,
+		"fossil_structures": [
+			"fokastudio:nether/dungeons/garden_1"
+		],
+		"overlay_structures": [
+			"fokastudio:nether/dungeons/garden_1"
+		],
+		"fossil_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:grass_block",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:rooted_dirt"
+							}
+						},
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:grass_block",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:coarse_dirt"
+							}
+						}
+					]
+				}
+			]
+		},
+		"overlay_processors": {
+			"processors": [
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:grass_block",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:rooted_dirt"
+							}
+						},
+						{
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:grass_block",
+								"probability": 0.1
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:coarse_dirt"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

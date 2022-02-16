@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {  
+  "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": [
+            "minecraft:leather_helmet"
+          ]
+        },
+        "chest": {
+          "items": [
+            "minecraft:leather_chestplate"
+          ]
+        },
+        "legs": {
+          "items": [
+            "minecraft:leather_leggings"
+          ]
+        },
+        "feet": {
+          "items": [
+            "minecraft:leather_boots"
+          ]
+        }
+      }
+    }
+  }
+}
+  

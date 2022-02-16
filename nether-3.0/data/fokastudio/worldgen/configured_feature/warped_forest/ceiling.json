@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "fokastudio:warped_forest/ceiling_1",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.3,
+				"feature": {
+					"feature": "fokastudio:warped_forest/ceiling_2",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": "fokastudio:warped_forest/ceiling_3",
+			"placement": []
+		}
+	}
+}

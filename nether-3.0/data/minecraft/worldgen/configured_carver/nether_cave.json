@@ -1,51 +1,51 @@
 {
-  "type": "minecraft:nether_cave",
-  "config": {
-    "probability": 0.6,
-    "y": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 0
-      },
-      "max_inclusive": {
-        "below_top": 1
-      }
-    },
-    "yScale": {
-      "type": "minecraft:trapezoid",
-      "value": {
-        "min": 0.2,
-        "max": 1,
-        "plateau": 0.4
-      }
-    },
-    "lava_level": {
-      "above_bottom": 10
-    },
-    "aquifers_enabled": false,
-    "horizontal_radius_multiplier": {
-      "type": "minecraft:trapezoid",
-      "value": {
-        "min": 0.5,
-        "max": 1.5,
-        "plateau": 1
-      }
-    },
-    "vertical_radius_multiplier": {
-      "type": "minecraft:trapezoid",
-      "value": {
-        "min": 0.5,
-        "max": 1.2,
-        "plateau": 0.7
-      }
-    },
-    "floor_level": {
-      "type": "minecraft:trapezoid",
-      "value": {
-        "min": -0.7,
-        "max": 0.3,
-        "plateau": -0.4
-      }
-    }
-  }
+	"type": "minecraft:nether_cave",
+	"config": {
+		"probability": 0.444,
+		"y": {
+			"type": "minecraft:uniform",
+			"min_inclusive": {
+				"above_bottom": 5
+			},
+			"max_inclusive": {
+				"below_top": 5
+			}
+		},
+		"yScale": {
+			"type": "minecraft:trapezoid",
+			"value": {
+				"min": 0.2,
+				"max": 1,
+				"plateau": 0.4
+			}
+		},
+		"lava_level": {
+			"above_bottom": 10
+		},
+		"aquifers_enabled": true,
+		"horizontal_radius_multiplier": {
+			"type": "minecraft:trapezoid",
+			"value": {
+				"min": 0.5,
+				"max": 1.5,
+				"plateau": 1
+			}
+		},
+		"vertical_radius_multiplier": {
+			"type": "minecraft:trapezoid",
+			"value": {
+				"min": 0.5,
+				"max": 1.2,
+				"plateau": 0.7
+			}
+		},
+		"floor_level": {
+			"type": "minecraft:trapezoid",
+			"value": {
+				"min": -0.7,
+				"max": 0.3,
+				"plateau": -0.4
+			}
+		}
+	}
 }

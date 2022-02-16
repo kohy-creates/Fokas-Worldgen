@@ -1,0 +1,22 @@
+{
+    "feature": "fokastudio:warped_forest/trees",
+    "placement": [
+      {
+          "type": "minecraft:biome"
+        },
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 2
+      },
+          {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                  "type": "minecraft:would_survive",
+                  "state": {
+                      "Name": "minecraft:warped_fungus"
+                  }
+              }
+          }
+    ]
+  }
+  
