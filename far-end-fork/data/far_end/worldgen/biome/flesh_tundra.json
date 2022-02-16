@@ -55,6 +55,14 @@
 				"minCount": 6,
 				"maxCount": 6
 			}
+		],
+		"misc": [
+			{
+				"type": "minecraft:husk",
+				"weight": 80,
+				"minCount": 4,
+				"maxCount": 5
+			}
 		]
 	},
 	"spawn_costs": {},

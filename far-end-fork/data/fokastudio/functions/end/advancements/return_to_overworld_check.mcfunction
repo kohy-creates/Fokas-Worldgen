@@ -1,0 +1,4 @@
+execute as @a at @s if block ~ ~-0.5 ~ end_portal if predicate fokastudio:end/locations/in_the_end run advancement grant @s only fokastudio:end/return_to_overworld
+execute as @a at @s if block ~ ~ ~ end_portal if predicate fokastudio:end/locations/in_the_end run advancement grant @s only fokastudio:end/return_to_overworld
+execute as @a at @s if block ~ ~0.5 ~ end_portal if predicate fokastudio:end/locations/in_the_end run advancement grant @s only fokastudio:end/return_to_overworld
+execute as @a at @s if block ~ ~1 ~ end_portal if predicate fokastudio:end/locations/in_the_end run advancement grant @s only fokastudio:end/return_to_overworld

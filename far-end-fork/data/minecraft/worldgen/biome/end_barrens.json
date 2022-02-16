@@ -71,7 +71,8 @@
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
-			"fokastudio:global/strongholds"
+			"fokastudio:global/strongholds",
+			"fokastudio:structures/end/dungeon"
 		]
 	]
 }

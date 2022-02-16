@@ -17,16 +17,7 @@
 	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"return_home": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"from": "minecraft:the_end",
-				"to": "minecraft:overworld"
-			}
+			"trigger": "minecraft:impossible"
 		}
-	},
-	"requirements": [
-		[
-			"return_home"
-		]
-	]
+	}
 }

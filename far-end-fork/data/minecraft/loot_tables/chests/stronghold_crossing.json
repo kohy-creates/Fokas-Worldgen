@@ -140,7 +140,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:iron_ingot",
+					"name": "minecraft:emerald",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -172,7 +172,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:redstone",
+					"name": "minecraft:purpur_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -188,7 +188,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:coal",
+					"name": "minecraft:bone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -204,7 +204,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
-					"name": "minecraft:bread",
+					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -220,7 +220,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
-					"name": "minecraft:apple",
+					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -235,7 +235,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_pickaxe"
+					"name": "minecraft:golden_pickaxe"
 				},
 				{
 					"type": "minecraft:item",
@@ -243,7 +243,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 30,
+							"levels": 45,
 							"treasure": true
 						}
 					]

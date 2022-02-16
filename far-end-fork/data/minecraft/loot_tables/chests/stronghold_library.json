@@ -112,11 +112,16 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:map"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:compass"
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "endcity",
+							"decoration": "banner_purple",
+							"zoom": 2,
+							"skip_existing_chunks": true
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
@@ -125,7 +130,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 30,
+							"levels": 60,
 							"treasure": true
 						}
 					]

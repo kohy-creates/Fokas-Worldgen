@@ -31,28 +31,10 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:silverfish",
-				"weight": 20,
-				"minCount": 1,
-				"maxCount": 4
-			},
-			{
 				"type": "minecraft:phantom",
 				"weight": 30,
 				"minCount": 7,
 				"maxCount": 7
-			},
-			{
-				"type": "minecraft:vex",
-				"weight": 30,
-				"minCount": 4,
-				"maxCount": 5
-			},
-			{
-				"type": "minecraft:enderman",
-				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
 			}
 		],
 		"creature": [],
@@ -93,7 +75,8 @@
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
-			"fokastudio:global/strongholds"
+			"fokastudio:global/strongholds",
+			"fokastudio:structures/end/dungeon"
 		]
 	]
 }

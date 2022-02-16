@@ -31,7 +31,7 @@
 				"location": {
 					"position": {
 						"y": {
-							"max": -16
+							"max": -30
 						}
 					},
 					"dimension": "minecraft:the_end"

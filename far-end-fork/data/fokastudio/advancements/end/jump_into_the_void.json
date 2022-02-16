@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:air"
+		},
+		"title": {
+			"translate": "Call of The Void"
+		},
+		"description": {
+			"translate": "Jump into the void and use this method to return to the Overworld"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "fokastudio:end/return_to_overworld",
+	"criteria": {
+		"jump_into_the_void": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": -64
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"jump_into_the_void"
+		]
+	],
+	"rewards": {
+		"experience": 300
+	}
+}

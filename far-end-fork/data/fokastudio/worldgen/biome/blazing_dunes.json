@@ -43,12 +43,6 @@
 				"maxCount": 4
 			},
 			{
-				"type": "minecraft:phantom",
-				"weight": 15,
-				"minCount": 6,
-				"maxCount": 6
-			},
-			{
 				"type": "minecraft:magma_cube",
 				"weight": 25,
 				"minCount": 3,

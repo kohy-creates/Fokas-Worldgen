@@ -13,7 +13,7 @@ execute as @s[tag=fe.activated] at @s unless entity @e[type=minecraft:ender_drag
 
 ### Dragon Respawn ###
 # count the number of respawn crystals placed.
-execute as @s[scores={fe.variable=1..}] at @s if block ~ ~3 ~ minecraft:dragon_egg unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/respawn/conditions
+execute as @s[scores={fe.variable=1..}] at @s unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/respawn/conditions
 
 # start the respawn animation.
 execute as @s[tag=fe.respawn] at @s run function far_end:structures/exit_portal/respawn/animation

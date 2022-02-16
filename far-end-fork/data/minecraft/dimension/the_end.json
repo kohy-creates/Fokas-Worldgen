@@ -2,7 +2,7 @@
 	"type": "minecraft:the_end",
 	"generator": {
 		"type": "minecraft:noise",
-		"seed": -1249309622,
+		"seed": -513239337,
 		"settings": "far_end:far_end",
 		"biome_source": {
 			"type": "minecraft:multi_noise",
@@ -233,6 +233,18 @@
 						"weirdness": 0,
 						"depth": 0,
 						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:the_hallow",
+					"parameters": {
+						"temperature": -0.9,
+						"humidity": -0.18,
+						"continentalness": 0.8,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
 					}
 				}
 			]

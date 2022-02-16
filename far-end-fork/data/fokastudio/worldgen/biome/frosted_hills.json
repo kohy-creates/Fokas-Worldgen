@@ -39,12 +39,6 @@
 				"maxCount": 7
 			},
 			{
-				"type": "minecraft:phantom",
-				"weight": 25,
-				"minCount": 2,
-				"maxCount": 4
-			},
-			{
 				"type": "minecraft:enderman",
 				"weight": 15,
 				"minCount": 3,

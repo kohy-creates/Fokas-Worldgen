@@ -3,10 +3,10 @@ scoreboard players add @s fe.timer 1
 
 ### Animation ###
 execute if score @s fe.timer matches 1 run function far_end:structures/exit_portal/deactivated/generate
-execute if score @s fe.timer matches 1 run setblock ~ ~3 ~ minecraft:dragon_egg
+#execute if score @s fe.timer matches 1 run setblock ~ ~3 ~ minecraft:dragon_egg
 
 ### Cancel Animation ###
-execute unless block ~ ~3 ~ minecraft:dragon_egg run function far_end:structures/exit_portal/respawn/cancel
+#execute unless block ~ ~3 ~ minecraft:dragon_egg run function far_end:structures/exit_portal/respawn/cancel
 execute unless score @s fe.count matches 4 run function far_end:structures/exit_portal/respawn/cancel
 
 # crystal beam target
@@ -51,5 +51,5 @@ execute if score @s fe.timer matches 580 run advancement grant @a[distance=..100
 execute if score @s fe.timer matches 580 run tag @s add fe.deactivated
 execute if score @s fe.timer matches 580 run tag @s remove fe.respawn
 execute if score @s fe.timer matches 580 run tag @a remove fe.dragon_defeated
-execute if score @s fe.timer matches 580 as @e[type=minecraft:end_crystal,predicate=fokastudio:fsee/locations/in_the_end] at @s run function fokastudio:end/end_crystal_transition
+execute if score @s fe.timer matches 580 as @e[type=minecraft:end_crystal,predicate=fokastudio:end/locations/in_the_end] at @s run function fokastudio:end/end_crystal_transition
 execute if score @s fe.timer matches 580 run scoreboard players reset @s fe.timer

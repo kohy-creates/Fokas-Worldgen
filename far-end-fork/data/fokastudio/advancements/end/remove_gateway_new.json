@@ -23,7 +23,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "fokastudio:fsee/locations/in_main_area"
+						"name": "fokastudio:end/locations/in_main_area"
 					}
 				],
 				"block": "minecraft:end_gateway"

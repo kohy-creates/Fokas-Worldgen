@@ -74,14 +74,16 @@
 			"far_end:wilds/vegetation/patch_chorus_flower",
 			"far_end:wilds/vegetation/patch_leaves",
 			"far_end:wilds/vegetation/trees",
-			"minecraft:patch_dead_bush"
+			"minecraft:patch_dead_bush",
+			"far_end:wilds/vegetation/chorus_plant"
 		],
 		[],
 		[
-			"far_end:wilds/vegetation/chorus_plant",
+			
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
-			"fokastudio:global/strongholds"
+			"fokastudio:global/strongholds",
+			"fokastudio:structures/end/dungeon"
 		]
 	]
 }

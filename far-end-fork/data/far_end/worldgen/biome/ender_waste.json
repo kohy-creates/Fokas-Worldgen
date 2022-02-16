@@ -32,12 +32,6 @@
 				"maxCount": 2
 			},
 			{
-				"type": "minecraft:phantom",
-				"weight": 10,
-				"minCount": 1,
-				"maxCount": 2
-			},
-			{
 				"type": "minecraft:silverfish",
 				"weight": 6,
 				"minCount": 2,
@@ -74,7 +68,8 @@
 		],
 		[
 			"fokastudio:wastes/dead_tree",
-			"fokastudio:wastes/tree"
+			"fokastudio:wastes/tree",
+			"far_end:waste/chorus_plant"
 		],
 		[
 			"minecraft:end_gateway_return"
@@ -84,10 +79,11 @@
 		[],
 		[],
 		[
-			"far_end:waste/chorus_plant",
+			
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
-			"fokastudio:global/strongholds"
+			"fokastudio:global/strongholds",
+			"fokastudio:structures/end/dungeon"
 		]
 	]
 }

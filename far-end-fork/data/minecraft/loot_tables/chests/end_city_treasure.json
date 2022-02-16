@@ -421,7 +421,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:treasure_heads"
+					"name": "fokastudio:end/treasure_heads"
 				}
 			],
 			"conditions": [
@@ -441,7 +441,7 @@
 						},
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.15
+							"chance": 0.2
 						}
 					]
 				}

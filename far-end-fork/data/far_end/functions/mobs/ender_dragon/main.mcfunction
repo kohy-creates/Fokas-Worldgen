@@ -22,3 +22,7 @@ execute at @s[tag=fe.landing] unless predicate far_end:mobs/ender_dragon/landing
 execute if score @s fe.variable matches 2 run data merge entity @s {DragonPhase:3}
 # - take off fail fix
 execute if score @s fe.variable matches 4 run data merge entity @s {DragonPhase:0}
+
+
+# Marker teleport
+execute at @s run tp @e[type=marker,tag=foka.dragon_marker] ~ ~ ~

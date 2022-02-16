@@ -135,6 +135,30 @@
 					"biome": "minecraft:small_end_islands"
 				}
 			}
+		},
+		"the_hallow": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "fokastudio:the_hallow"
+				}
+			}
+		},
+		"frosted_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "fokastudio:frosted_hills"
+				}
+			}
+		},
+		"snowy_warped_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"biome": "fokastudio:snowy_warped_forest"
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -182,7 +206,18 @@
 		],
 		[
 			"ender_waste"
+		],
+		[
+			"the_hallow"
+		],
+		[
+			"frosted_hills"
+		],
+		[
+			"snowy_warped_forest"
 		]
 	],
-	"rewards": {}
+	"rewards": {
+		"experience": 700
+	}
 }

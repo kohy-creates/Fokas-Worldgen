@@ -21,11 +21,8 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
 							"condition": "minecraft:reference",
-							"name": "fokastudio:fsee/locations/in_main_area"
-						}
+							"name": "fokastudio:end/locations/in_main_area"
 					}
 				]
 			}

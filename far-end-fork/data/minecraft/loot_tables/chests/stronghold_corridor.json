@@ -217,7 +217,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:iron_ingot",
+					"name": "minecraft:emerald",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -249,7 +249,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:redstone",
+					"name": "minecraft:end_stone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -265,7 +265,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
-					"name": "minecraft:bread",
+					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -281,7 +281,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
-					"name": "minecraft:apple",
+					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -297,44 +297,40 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_pickaxe"
+					"name": "minecraft:golden_pickaxe"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_sword"
+					"name": "minecraft:golden_sword"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_chestplate"
+					"name": "minecraft:golden_chestplate"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_helmet"
+					"name": "minecraft:golden_helmet"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_leggings"
+					"name": "minecraft:golden_leggings"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:iron_boots"
+					"name": "minecraft:golden_boots"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_apple"
+					"name": "minecraft:enchanted_golden_apple"
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:saddle"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_horse_armor"
 				},
 				{
 					"type": "minecraft:item",
@@ -346,7 +342,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:music_disc_otherside"
+					"name": "minecraft:music_disc_mellohi"
 				},
 				{
 					"type": "minecraft:item",
@@ -354,7 +350,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 30,
+							"levels": 50,
 							"treasure": true
 						}
 					]

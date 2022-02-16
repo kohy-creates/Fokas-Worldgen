@@ -3,7 +3,6 @@ advancement revoke @s only fokastudio:events/eat_chorus_fruit
 # Saturation
 effect give @s saturation 1 1 true
 
-
 # RNG
 # This section has a small delay, that's why Saturation is given earlier on
 scoreboard players set in math 1

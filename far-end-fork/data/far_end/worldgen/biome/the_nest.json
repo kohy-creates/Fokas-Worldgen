@@ -45,12 +45,6 @@
 				"maxCount": 4
 			},
 			{
-				"type": "minecraft:phantom",
-				"weight": 70,
-				"minCount": 5,
-				"maxCount": 5
-			},
-			{
 				"type": "minecraft:silverfish",
 				"weight": 30,
 				"minCount": 7,

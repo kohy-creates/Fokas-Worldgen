@@ -1,1 +1,1 @@
-loot give @s loot fokastudio:treasure_heads
+loot give @s loot fokastudio:end/treasure_heads
