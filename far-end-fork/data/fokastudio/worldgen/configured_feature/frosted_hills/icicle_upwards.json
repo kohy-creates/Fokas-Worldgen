@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "fokastudio:frosted_hills/patches_replacable",
+		"replaceable": "#fokastudio:frosted_hills/patches_replacable",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {

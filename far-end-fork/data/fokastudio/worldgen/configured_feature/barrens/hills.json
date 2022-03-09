@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "fokastudio:stalactites_replacable",
+		"replaceable": "#fokastudio:stalactites_replacable",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {

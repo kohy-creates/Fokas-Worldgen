@@ -14,7 +14,7 @@
 				"max_inclusive": 2
 			}
 		},
-		"replaceable": "fokastudio:flesh_tundra/bones_replacable",
+		"replaceable": "#fokastudio:flesh_tundra/bones_replacable",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {

@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "fokastudio:the_nest/surface_blocks",
+		"replaceable": "#fokastudio:the_nest/surface_blocks",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

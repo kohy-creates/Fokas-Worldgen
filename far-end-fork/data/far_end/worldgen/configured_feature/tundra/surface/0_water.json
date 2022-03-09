@@ -14,7 +14,7 @@
         "max_inclusive": 1
       }
     },
-    "replaceable": "far_end:flesh_surface",
+    "replaceable": "#far_end:flesh_surface",
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {

@@ -14,7 +14,7 @@
 				"max_inclusive": 7
 			}
 		},
-		"replaceable": "fokastudio:ashfall_deltas/patches_replacable",
+		"replaceable": "#fokastudio:ashfall_deltas/patches_replacable",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

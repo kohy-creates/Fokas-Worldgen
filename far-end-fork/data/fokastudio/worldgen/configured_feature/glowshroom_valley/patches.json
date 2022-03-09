@@ -14,7 +14,7 @@
 				"max_inclusive": 7
 			}
 		},
-		"replaceable": "minecraft:terracotta",
+		"replaceable": "#minecraft:terracotta",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

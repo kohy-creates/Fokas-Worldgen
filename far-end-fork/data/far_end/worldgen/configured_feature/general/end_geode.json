@@ -43,8 +43,8 @@
           "Name": "minecraft:crying_obsidian"
         }
       ],
-      "cannot_replace": "far_end:end_geode_invalid",
-      "invalid_blocks": "far_end:end_geode_invalid"
+      "cannot_replace": "#far_end:end_geode_invalid",
+      "invalid_blocks": "#far_end:end_geode_invalid"
     },
     "layers": {
       "filling": 1.7,

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "fokastudio:snowy_warped_forest",
+    "fokastudio:frosted_hills"
+  ]
+}

@@ -9,7 +9,7 @@
 		"hanging_roots_vertical_span": 5,
 		"hanging_root_placement_attempts": 40,
 		"allowed_vertical_water_for_tree": 5,
-		"root_replaceable": "fokastudio:amethyst_forest/roots_replacable",
+		"root_replaceable": "#fokastudio:amethyst_forest/roots_replacable",
 		"root_state_provider": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

@@ -159,7 +159,8 @@
 	},
 	"features": [
 		[
-			"fokastudio:the_hallow/stalactite"
+			"fokastudio:the_hallow/stalactite",
+			"fokastudio:the_hallow/crystals"
 		],
 		[],
 		[
@@ -190,7 +191,8 @@
 			"fokastudio:the_hallow/trees",
 			"minecraft:glow_lichen",
 			"fokastudio:the_hallow/flowers",
-			"fokastudio:the_hallow/grass"
+			"fokastudio:the_hallow/grass",
+			"fokastudio:the_hallow/rock"
 		],
 		[
 			"far_end:general/end_spike/center",

@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "fokastudio:blazing_dunes/ground_blocks",
+		"replaceable": "#fokastudio:blazing_dunes/ground_blocks",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {

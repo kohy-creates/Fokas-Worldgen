@@ -14,7 +14,7 @@
 				"max_inclusive": 5
 			}
 		},
-		"replaceable": "minecraft:dirt",
+		"replaceable": "#minecraft:dirt",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

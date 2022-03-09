@@ -11,7 +11,7 @@
 	"ambient_light": 0,
 	"logical_height": 230,
 	"effects": "minecraft:the_end",
-	"infiniburn": "minecraft:infiniburn_end",
+	"infiniburn": "#minecraft:infiniburn_end",
 	"min_y": 0,
 	"height": 256
 }

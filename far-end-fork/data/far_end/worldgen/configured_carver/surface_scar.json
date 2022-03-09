@@ -1,33 +1,43 @@
 {
 	"type": "minecraft:canyon",
 	"config": {
-		"probability": 0.2,
+		"probability": 0.1,
 		"y": {
-			"type": "minecraft:biased_to_bottom",
+			"type": "minecraft:uniform",
 			"min_inclusive": {
-				"absolute": 0
+				"above_bottom": 20
 			},
 			"max_inclusive": {
-				"absolute": 256
-			},
-			"inner": 8
+				"below_top": 0
+			}
 		},
-		"yScale": 3,
+		"yScale": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 6,
+				"max_exclusive": 8
+			}
+		},
 		"lava_level": {
-			"absolute": -26
+			"absolute": -24
 		},
 		"debug_settings": {
 			"debug_mode": false,
 			"air_state": {
-				"Name": "minecraft:crimson_button",
+				"Name": "minecraft:oak_button",
 				"Properties": {
-					"face": "wall",
+					"powered": "false",
 					"facing": "north",
-					"powered": "false"
+					"face": "wall"
 				}
 			},
 			"water_state": {
-				"Name": "minecraft:light_blue_stained_glass"
+				"Name": "minecraft:candle",
+				"Properties": {
+					"waterlogged": "false",
+					"lit": "false",
+					"candles": "1"
+				}
 			},
 			"lava_state": {
 				"Name": "minecraft:orange_stained_glass"
@@ -47,28 +57,27 @@
 			"distance_factor": {
 				"type": "minecraft:uniform",
 				"value": {
-					"min_inclusive": 0.75,
+					"min_inclusive": 0.5,
 					"max_exclusive": 1
 				}
 			},
 			"thickness": {
-				"type": "minecraft:trapezoid",
-				"value": {
-					"min": 0,
-					"max": 6,
-					"plateau": 2
-				}
-			},
-			"width_smoothness": 3,
-			"horizontal_radius_factor": {
 				"type": "minecraft:uniform",
 				"value": {
-					"min_inclusive": 0.75,
+					"min_inclusive": 0,
 					"max_exclusive": 1
 				}
 			},
-			"vertical_radius_default_factor": 1,
-			"vertical_radius_center_factor": 0
+			"width_smoothness": 6,
+			"horizontal_radius_factor": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0.25,
+					"max_exclusive": 1
+				}
+			},
+			"vertical_radius_default_factor": 0,
+			"vertical_radius_center_factor": 5
 		}
 	}
 }

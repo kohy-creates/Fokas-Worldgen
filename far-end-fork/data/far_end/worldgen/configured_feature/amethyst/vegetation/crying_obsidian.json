@@ -14,7 +14,7 @@
 				"max_inclusive": 5
 			}
 		},
-		"replaceable": "far_end:grass_block",
+		"replaceable": "#far_end:grass_block",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

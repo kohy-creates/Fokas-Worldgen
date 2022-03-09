@@ -2,6 +2,13 @@
 	"type": "minecraft:random_selector",
 	"config": {
 		"features": [
+            {
+				"chance": 0.3333,
+				"feature": {
+					"feature": "fokastudio:the_hallow/trees/bush",
+					"placement": []
+				}
+			},
 			{
 				"chance": 0.1,
 				"feature": {

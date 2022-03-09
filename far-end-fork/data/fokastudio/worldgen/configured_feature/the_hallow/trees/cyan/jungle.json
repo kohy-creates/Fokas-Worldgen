@@ -48,16 +48,35 @@
 			]
 		},
 		"trunk_placer": {
-			"type": "minecraft:forking_trunk_placer",
-			"base_height": 13,
-			"height_rand_a": 6,
-			"height_rand_b": 8
+			"type": "minecraft:mega_jungle_trunk_placer",
+			"base_height": 12,
+			"height_rand_a": 7,
+			"height_rand_b": 10
 		},
 		"foliage_placer": {
-			"type": "minecraft:jungle_foliage_placer",
-			"radius": 1,
-			"offset": 0,
-			"height": 3
+			"type": "minecraft:random_spread_foliage_placer",
+			"radius": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 3,
+					"max_inclusive": 7
+				}
+			},
+			"offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 12
+				}
+			},
+			"foliage_height": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 6,
+					"max_inclusive": 18
+				}
+			},
+			"leaf_placement_attempts": 256
 		},
 		"decorators": []
 	}

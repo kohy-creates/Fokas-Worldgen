@@ -37,6 +37,8 @@ WORLDGEN:
 		barren biomes.
 		Also, the Snow Layers in Frosted Hills are from their pack - Terralith.
 
+	True
+
 
 
 

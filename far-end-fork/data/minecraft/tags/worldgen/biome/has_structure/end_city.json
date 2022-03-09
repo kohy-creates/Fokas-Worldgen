@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "fokastudio:the_hallow",
+    "minecraft:end_barrens",
+    "fokastudio:chorus_jungle"
+  ]
+}

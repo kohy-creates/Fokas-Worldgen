@@ -14,7 +14,7 @@
 				"max_inclusive": 7
 			}
 		},
-		"replaceable": "far_end:end_stone",
+		"replaceable": "#far_end:end_stone",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
